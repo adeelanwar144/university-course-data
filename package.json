@@ -1,0 +1,26 @@
+{
+  "name": "university-course-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes live summer 2026 course data from top US universities for assignment writing service",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "scrape:ucla": "UNIVERSITY=ucla node scraper.js",
+    "scrape:harvard": "UNIVERSITY=harvard node scraper.js",
+    "scrape:mit": "UNIVERSITY=mit node scraper.js",
+    "scrape:nyu": "UNIVERSITY=nyu node scraper.js",
+    "test": "node -e \"const s=require('./scraper.js'); console.log('Scraper loaded OK')\""
+  },
+  "keywords": [
+    "university",
+    "courses",
+    "scraper",
+    "summer 2026",
+    "assignment help"
+  ],
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0",
+    "puppeteer": "^22.0.0"
+  }
+}
