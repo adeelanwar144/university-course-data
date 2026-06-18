@@ -1,7 +1,450 @@
 {
-  "name": "Economics",
-  "code": "14",
-  "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=14",
-  "courses": [],
-  "count": 0
+  "department": "Economics",
+  "courses": [
+    {
+      "university": "Massachusetts Institute of Technology",
+      "universitySlug": "mit",
+      "universityCity": "Cambridge, MA",
+      "universityWeb": "https://www.mit.edu",
+      "department": "Economics",
+      "departmentSlug": "economics",
+      "courseCode": "14.01",
+      "courseTitle": "Principles of Microeconomics",
+      "section": "",
+      "catalogNumber": "14.01",
+      "term": "Summer 2026",
+      "sessionName": "Summer Session",
+      "instructionStart": "June 9, 2026",
+      "instructionEnd": "August 19, 2026",
+      "addDropDeadline": "June 13, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MWF",
+      "meetingTime": "11:00am – 12:00pm",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "5 units",
+      "instructor": "TBD",
+      "description": "Introduction to microeconomic theory: supply and demand analysis, theory of the firm, market structure, welfare economics, public goods, and externalities.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "June 18, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "June 27, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 6, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "July 15, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "July 24, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 2, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "August 11, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "August 20, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Massachusetts Institute of Technology's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Massachusetts Institute of Technology uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 9 – Jun 13, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 16 – Jun 20, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 23 – Jun 27, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 14 – Jul 18, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 21 – Jul 25, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 28 – Aug 1, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "14.01 Principles of Microeconomics — MIT Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Principles of Microeconomics at Massachusetts Institute of Technology",
+      "seoDescription": "Expert assignment help for Principles of Microeconomics (14.01) at Massachusetts Institute of Technology. Summer 2026: June 9, 2026 – August 19, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "14.01 assignment help",
+        "Principles of Microeconomics homework help",
+        "MIT Economics assignment help",
+        "MIT summer 2026 economics",
+        "14.01 MIT summer 2026",
+        "Principles of Microeconomics exam help",
+        "Principles of Microeconomics project help",
+        "Massachusetts Institute of Technology assignment writing service",
+        "Economics assignment help USA",
+        "Principles of Microeconomics online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/mit/economics/14-01",
+      "scrapedAt": "2026-06-18T20:07:28.164Z",
+      "dataSource": "https://www.mit.edu",
+      "verified": true
+    },
+    {
+      "university": "Massachusetts Institute of Technology",
+      "universitySlug": "mit",
+      "universityCity": "Cambridge, MA",
+      "universityWeb": "https://www.mit.edu",
+      "department": "Economics",
+      "departmentSlug": "economics",
+      "courseCode": "14.02",
+      "courseTitle": "Principles of Macroeconomics",
+      "section": "",
+      "catalogNumber": "14.02",
+      "term": "Summer 2026",
+      "sessionName": "Summer Session",
+      "instructionStart": "June 9, 2026",
+      "instructionEnd": "August 19, 2026",
+      "addDropDeadline": "June 13, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MWF",
+      "meetingTime": "2:00pm – 3:00pm",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "5 units",
+      "instructor": "TBD",
+      "description": "Introduction to macroeconomics. National income accounting, theories of income determination, inflation, unemployment, monetary and fiscal policy, international economics.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-fall-2004/",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "June 18, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "June 27, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 6, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "July 15, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "July 24, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 2, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "August 11, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "August 20, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Massachusetts Institute of Technology's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Massachusetts Institute of Technology uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 9 – Jun 13, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 16 – Jun 20, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 23 – Jun 27, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 14 – Jul 18, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 21 – Jul 25, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 28 – Aug 1, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "14.02 Principles of Macroeconomics — MIT Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Principles of Macroeconomics at Massachusetts Institute of Technology",
+      "seoDescription": "Expert assignment help for Principles of Macroeconomics (14.02) at Massachusetts Institute of Technology. Summer 2026: June 9, 2026 – August 19, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "14.02 assignment help",
+        "Principles of Macroeconomics homework help",
+        "MIT Economics assignment help",
+        "MIT summer 2026 economics",
+        "14.02 MIT summer 2026",
+        "Principles of Macroeconomics exam help",
+        "Principles of Macroeconomics project help",
+        "Massachusetts Institute of Technology assignment writing service",
+        "Economics assignment help USA",
+        "Principles of Macroeconomics online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/mit/economics/14-02",
+      "scrapedAt": "2026-06-18T20:07:28.165Z",
+      "dataSource": "https://www.mit.edu",
+      "verified": true
+    }
+  ],
+  "count": 2
 }

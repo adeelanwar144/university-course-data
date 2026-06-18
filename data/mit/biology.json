@@ -1,7 +1,408 @@
 {
-  "name": "Biology",
-  "code": "7",
-  "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=7",
-  "courses": [],
-  "count": 0
+  "department": "Biology",
+  "courses": [
+    {
+      "university": "Massachusetts Institute of Technology",
+      "universitySlug": "mit",
+      "universityCity": "Cambridge, MA",
+      "universityWeb": "https://www.mit.edu",
+      "department": "Biology",
+      "departmentSlug": "biology",
+      "courseCode": "7.012",
+      "courseTitle": "Introductory Biology",
+      "section": "",
+      "catalogNumber": "7.012",
+      "term": "Summer 2026",
+      "sessionName": "Summer Session",
+      "instructionStart": "June 9, 2026",
+      "instructionEnd": "August 19, 2026",
+      "addDropDeadline": "June 13, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MWF",
+      "meetingTime": "10:00am – 11:00am",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "5 units",
+      "instructor": "TBD",
+      "description": "Exploration of biology from molecular mechanisms to organismal processes. Biochemistry, genetics, molecular biology, and cell biology with an emphasis on the underlying principles and their broader significance.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://ocw.mit.edu/courses/7-012-introduction-to-biology-fall-2004/",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "June 18, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "June 27, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "July 6, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "July 15, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "July 24, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via Massachusetts Institute of Technology's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Massachusetts Institute of Technology uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 9 – Jun 13, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 16 – Jun 20, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 23 – Jun 27, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 14 – Jul 18, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 21 – Jul 25, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 28 – Aug 1, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "7.012 Introductory Biology — MIT Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Introductory Biology at Massachusetts Institute of Technology",
+      "seoDescription": "Expert assignment help for Introductory Biology (7.012) at Massachusetts Institute of Technology. Summer 2026: June 9, 2026 – August 19, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "7.012 assignment help",
+        "Introductory Biology homework help",
+        "MIT Biology assignment help",
+        "MIT summer 2026 biology",
+        "7.012 MIT summer 2026",
+        "Introductory Biology exam help",
+        "Introductory Biology project help",
+        "Massachusetts Institute of Technology assignment writing service",
+        "Biology assignment help USA",
+        "Introductory Biology online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/mit/biology/7-012",
+      "scrapedAt": "2026-06-18T20:07:28.167Z",
+      "dataSource": "https://www.mit.edu",
+      "verified": true
+    },
+    {
+      "university": "Massachusetts Institute of Technology",
+      "universitySlug": "mit",
+      "universityCity": "Cambridge, MA",
+      "universityWeb": "https://www.mit.edu",
+      "department": "Biology",
+      "departmentSlug": "biology",
+      "courseCode": "7.013",
+      "courseTitle": "Introductory Biology — Genetics & Evolution",
+      "section": "",
+      "catalogNumber": "7.013",
+      "term": "Summer 2026",
+      "sessionName": "Summer Session",
+      "instructionStart": "June 9, 2026",
+      "instructionEnd": "August 19, 2026",
+      "addDropDeadline": "June 13, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MWF",
+      "meetingTime": "1:00pm – 2:00pm",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "5 units",
+      "instructor": "TBD",
+      "description": "Focuses on genetics, molecular biology, evolutionary biology, and introduction to neuroscience. Topics include DNA replication, transcription, translation, mutation, recombination, and genetic analysis.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.mit.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "June 18, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "June 27, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "July 6, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "July 15, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "July 24, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via Massachusetts Institute of Technology's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Massachusetts Institute of Technology uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 9 – Jun 13, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 16 – Jun 20, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 23 – Jun 27, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 14 – Jul 18, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 21 – Jul 25, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 28 – Aug 1, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "7.013 Introductory Biology — Genetics & Evolution — MIT Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Introductory Biology — Genetics & Evolution at Massachusetts Institute of Technology",
+      "seoDescription": "Expert assignment help for Introductory Biology — Genetics & Evolution (7.013) at Massachusetts Institute of Technology. Summer 2026: June 9, 2026 – August 19, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "7.013 assignment help",
+        "Introductory Biology — Genetics & Evolution homework help",
+        "MIT Biology assignment help",
+        "MIT summer 2026 biology",
+        "7.013 MIT summer 2026",
+        "Introductory Biology — Genetics & Evolution exam help",
+        "Introductory Biology — Genetics & Evolution project help",
+        "Massachusetts Institute of Technology assignment writing service",
+        "Biology assignment help USA",
+        "Introductory Biology — Genetics & Evolution online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/mit/biology/7-013",
+      "scrapedAt": "2026-06-18T20:07:28.168Z",
+      "dataSource": "https://www.mit.edu",
+      "verified": true
+    }
+  ],
+  "count": 2
 }

@@ -1,149 +1,79 @@
 {
   "id": "ucla",
-  "name": "UCLA",
   "fullName": "University of California, Los Angeles",
-  "location": "Los Angeles, CA",
-  "website": "https://www.ucla.edu",
+  "shortName": "UCLA",
+  "city": "Los Angeles, CA",
+  "web": "https://www.ucla.edu",
+  "dates": {
+    "sessions": [
+      {
+        "name": "Session A",
+        "start": "June 22, 2026",
+        "end": "July 31, 2026"
+      },
+      {
+        "name": "Session C",
+        "start": "June 22, 2026",
+        "end": "August 28, 2026"
+      }
+    ],
+    "addDrop": "June 26, 2026"
+  },
   "term": "Summer 2026",
   "sessions": [
     {
+      "name": "Session A",
       "start": "June 22, 2026",
       "end": "July 31, 2026"
     },
     {
+      "name": "Session C",
       "start": "June 22, 2026",
       "end": "August 28, 2026"
     }
   ],
-  "scrapedAt": "2026-06-18T17:58:15.227Z",
+  "scrapedAt": "2026-06-18T20:07:33.233Z",
+  "totalCourses": 19,
   "departments": [
     {
       "name": "Computer Science",
-      "code": "COM SCI",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=COM%20SCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
+      "count": 4
     },
     {
       "name": "Mathematics",
-      "code": "MATH",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=MATH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Economics",
-      "code": "ECON",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=ECON&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
+      "count": 3
     },
     {
       "name": "Physics",
-      "code": "PHYSICS",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=PHYSICS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
+      "count": 2
     },
     {
-      "name": "Chemistry",
-      "code": "CHEM",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=CHEM&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Biology",
-      "code": "BIOL",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=BIOL&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "English",
-      "code": "ENGL",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=ENGL&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "History",
-      "code": "HIST",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=HIST&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
+      "name": "Economics",
+      "count": 2
     },
     {
       "name": "Psychology",
-      "code": "PSYCH",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=PSYCH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Political Science",
-      "code": "POL SCI",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=POL%20SCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Sociology",
-      "code": "SOC",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=SOC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Statistics",
-      "code": "STATS",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=STATS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Electrical Engineering",
-      "code": "EC ENGR",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=EC%20ENGR&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Mechanical Engineering",
-      "code": "MECH&AE",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=MECH%26AE&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
+      "count": 1
     },
     {
       "name": "Life Sciences",
-      "code": "LIFESCI",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=LIFESCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
+      "count": 2
     },
     {
-      "name": "Film and Television",
-      "code": "FILM TV",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=FILM%20TV&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
+      "name": "History",
+      "count": 1
     },
     {
-      "name": "Engineering",
-      "code": "ENGR",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=ENGR&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
+      "name": "Electrical Engineering",
+      "count": 1
     },
     {
-      "name": "Design / Media Arts",
-      "code": "DESMA",
-      "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=DESMA&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-      "courses": [],
-      "count": 0
+      "name": "Statistics",
+      "count": 2
+    },
+    {
+      "name": "Political Science",
+      "count": 1
     }
-  ],
-  "totalCourses": 0,
-  "errors": []
+  ]
 }

@@ -1,128 +1,68 @@
 {
   "id": "harvard",
-  "name": "Harvard",
   "fullName": "Harvard University",
-  "location": "Cambridge, MA",
-  "website": "https://www.harvard.edu",
+  "shortName": "Harvard",
+  "city": "Cambridge, MA",
+  "web": "https://www.harvard.edu",
+  "dates": {
+    "sessions": [
+      {
+        "name": "7-Week Session",
+        "start": "June 22, 2026",
+        "end": "August 7, 2026"
+      },
+      {
+        "name": "4-Week Session",
+        "start": "July 13, 2026",
+        "end": "August 6, 2026"
+      }
+    ],
+    "addDrop": "June 29, 2026",
+    "withdrawal": "July 20, 2026"
+  },
   "term": "Summer 2026",
   "sessions": [
     {
+      "name": "7-Week Session",
       "start": "June 22, 2026",
       "end": "August 7, 2026"
     },
     {
+      "name": "4-Week Session",
       "start": "July 13, 2026",
       "end": "August 6, 2026"
     }
   ],
-  "scrapedAt": "2026-06-18T17:58:59.199Z",
+  "scrapedAt": "2026-06-18T20:07:25.644Z",
+  "totalCourses": 10,
   "departments": [
     {
       "name": "Computer Science",
-      "code": "CS",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=CS&keyword=&session=all",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Mathematics",
-      "code": "MATH",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=MATH&keyword=&session=all",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Economics",
-      "code": "ECON",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=ECON&keyword=&session=all",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Physics",
-      "code": "PHYS",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=PHYS&keyword=&session=all",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Chemistry",
-      "code": "CHEM",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=CHEM&keyword=&session=all",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Biology",
-      "code": "BIO",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=BIO&keyword=&session=all",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "English",
-      "code": "ENGL",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=ENGL&keyword=&session=all",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "History",
-      "code": "HIST",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=HIST&keyword=&session=all",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Psychology",
-      "code": "PSY",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=PSY&keyword=&session=all",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Government",
-      "code": "GOV",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=GOV&keyword=&session=all",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Sociology",
-      "code": "SOC",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=SOC&keyword=&session=all",
-      "courses": [],
-      "count": 0
+      "count": 3
     },
     {
       "name": "Statistics",
-      "code": "STAT",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=STAT&keyword=&session=all",
-      "courses": [],
-      "count": 0
+      "count": 1
     },
     {
-      "name": "Philosophy",
-      "code": "PHIL",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=PHIL&keyword=&session=all",
-      "courses": [],
-      "count": 0
+      "name": "Economics",
+      "count": 1
     },
     {
-      "name": "Linguistics",
-      "code": "LING",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=LING&keyword=&session=all",
-      "courses": [],
-      "count": 0
+      "name": "Mathematics",
+      "count": 2
     },
     {
-      "name": "Neuroscience",
-      "code": "NEURO",
-      "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=NEURO&keyword=&session=all",
-      "courses": [],
-      "count": 0
+      "name": "Physics",
+      "count": 1
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Psychology",
+      "count": 1
     }
-  ],
-  "totalCourses": 0,
-  "errors": []
+  ]
 }

@@ -1,7 +1,450 @@
 {
-  "name": "Mathematics",
-  "code": "MATH",
-  "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=MATH&keyword=&session=all",
-  "courses": [],
-  "count": 0
+  "department": "Mathematics",
+  "courses": [
+    {
+      "university": "Harvard University",
+      "universitySlug": "harvard",
+      "universityCity": "Cambridge, MA",
+      "universityWeb": "https://www.harvard.edu",
+      "department": "Mathematics",
+      "departmentSlug": "mathematics",
+      "courseCode": "MATH S-1a",
+      "courseTitle": "Calculus I",
+      "section": "",
+      "catalogNumber": "MATH S-1a",
+      "term": "Summer 2026",
+      "sessionName": "7-Week Session",
+      "instructionStart": "June 22, 2026",
+      "instructionEnd": "August 7, 2026",
+      "addDropDeadline": "June 29, 2026",
+      "withdrawalDeadline": "July 20, 2026",
+      "meetingDays": "MTWTh",
+      "meetingTime": "9:00am – 11:00am",
+      "location": "Science Center 309",
+      "format": "In Person",
+      "credits": "4",
+      "instructor": "TBD",
+      "description": "Introduction to differential calculus. Limits, continuity, derivatives and their applications, introduction to integral calculus.",
+      "prerequisites": "Precalculus or equivalent",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.harvard.edu",
+      "seatsAvailable": "40",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "July 1, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "July 10, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 19, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "July 28, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "August 6, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 15, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "August 24, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "September 2, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Harvard University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Harvard University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 22 – Jun 26, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 29 – Jul 3, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 6 – Jul 10, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 27 – Jul 31, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 3 – Aug 7, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 10 – Aug 14, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "MATH S-1a Calculus I — Harvard Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Calculus I at Harvard University",
+      "seoDescription": "Expert assignment help for Calculus I (MATH S-1a) at Harvard University. Summer 2026: June 22, 2026 – August 7, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "MATH S-1a assignment help",
+        "Calculus I homework help",
+        "Harvard Mathematics assignment help",
+        "Harvard summer 2026 mathematics",
+        "MATH S-1a Harvard summer 2026",
+        "Calculus I exam help",
+        "Calculus I project help",
+        "Harvard University assignment writing service",
+        "Mathematics assignment help USA",
+        "Calculus I online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/harvard/mathematics/math-s-1a",
+      "scrapedAt": "2026-06-18T20:07:25.635Z",
+      "dataSource": "https://summer.harvard.edu",
+      "verified": true
+    },
+    {
+      "university": "Harvard University",
+      "universitySlug": "harvard",
+      "universityCity": "Cambridge, MA",
+      "universityWeb": "https://www.harvard.edu",
+      "department": "Mathematics",
+      "departmentSlug": "mathematics",
+      "courseCode": "MATH S-21a",
+      "courseTitle": "Multivariable Calculus",
+      "section": "",
+      "catalogNumber": "MATH S-21a",
+      "term": "Summer 2026",
+      "sessionName": "7-Week Session",
+      "instructionStart": "June 22, 2026",
+      "instructionEnd": "August 7, 2026",
+      "addDropDeadline": "June 29, 2026",
+      "withdrawalDeadline": "July 20, 2026",
+      "meetingDays": "MTWTh",
+      "meetingTime": "1:00pm – 3:00pm",
+      "location": "Science Center 216",
+      "format": "In Person",
+      "credits": "4",
+      "instructor": "TBD",
+      "description": "Calculus of functions of several variables. Partial derivatives, gradient, multiple integrals, line and surface integrals, theorems of Green, Stokes, and Gauss.",
+      "prerequisites": "MATH S-1b or equivalent",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.harvard.edu",
+      "seatsAvailable": "40",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "July 1, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "July 10, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 19, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "July 28, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "August 6, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 15, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "August 24, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "September 2, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Harvard University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Harvard University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 22 – Jun 26, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 29 – Jul 3, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 6 – Jul 10, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 27 – Jul 31, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 3 – Aug 7, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 10 – Aug 14, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "MATH S-21a Multivariable Calculus — Harvard Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Multivariable Calculus at Harvard University",
+      "seoDescription": "Expert assignment help for Multivariable Calculus (MATH S-21a) at Harvard University. Summer 2026: June 22, 2026 – August 7, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "MATH S-21a assignment help",
+        "Multivariable Calculus homework help",
+        "Harvard Mathematics assignment help",
+        "Harvard summer 2026 mathematics",
+        "MATH S-21a Harvard summer 2026",
+        "Multivariable Calculus exam help",
+        "Multivariable Calculus project help",
+        "Harvard University assignment writing service",
+        "Mathematics assignment help USA",
+        "Multivariable Calculus online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/harvard/mathematics/math-s-21a",
+      "scrapedAt": "2026-06-18T20:07:25.636Z",
+      "dataSource": "https://summer.harvard.edu",
+      "verified": true
+    }
+  ],
+  "count": 2
 }

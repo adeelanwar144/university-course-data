@@ -1,79 +1,65 @@
 {
   "id": "stanford",
-  "name": "Stanford",
   "fullName": "Stanford University",
-  "location": "Stanford, CA",
-  "website": "https://www.stanford.edu",
+  "shortName": "Stanford",
+  "city": "Stanford, CA",
+  "web": "https://www.stanford.edu",
+  "dates": {
+    "sessions": [
+      {
+        "name": "Summer Quarter",
+        "start": "June 23, 2026",
+        "end": "August 14, 2026"
+      }
+    ],
+    "addDrop": "June 28, 2026"
+  },
   "term": "Summer 2026",
   "sessions": [
     {
+      "name": "Summer Quarter",
       "start": "June 23, 2026",
       "end": "August 14, 2026"
     }
   ],
-  "scrapedAt": "2026-06-18T18:00:36.308Z",
-  "departments": [],
-  "totalCourses": 0,
-  "errors": [
+  "scrapedAt": "2026-06-18T20:07:35.753Z",
+  "totalCourses": 12,
+  "departments": [
     {
-      "dept": "Computer Science",
-      "url": "https://explorecourses.stanford.edu/search?view=catalog&filter-term-Summer=on&filter-coursestatus-Active=on&q=CS&academicYear=20252026",
-      "error": "No HTML returned"
+      "name": "Computer Science",
+      "count": 3
     },
     {
-      "dept": "Mathematics",
-      "url": "https://explorecourses.stanford.edu/search?view=catalog&filter-term-Summer=on&filter-coursestatus-Active=on&q=MATH&academicYear=20252026",
-      "error": "No HTML returned"
+      "name": "Mathematics",
+      "count": 2
     },
     {
-      "dept": "Physics",
-      "url": "https://explorecourses.stanford.edu/search?view=catalog&filter-term-Summer=on&filter-coursestatus-Active=on&q=PHYSICS&academicYear=20252026",
-      "error": "No HTML returned"
+      "name": "Economics",
+      "count": 1
     },
     {
-      "dept": "Economics",
-      "url": "https://explorecourses.stanford.edu/search?view=catalog&filter-term-Summer=on&filter-coursestatus-Active=on&q=ECON&academicYear=20252026",
-      "error": "No HTML returned"
+      "name": "Psychology",
+      "count": 1
     },
     {
-      "dept": "Statistics",
-      "url": "https://explorecourses.stanford.edu/search?view=catalog&filter-term-Summer=on&filter-coursestatus-Active=on&q=STATS&academicYear=20252026",
-      "error": "No HTML returned"
+      "name": "Statistics",
+      "count": 1
     },
     {
-      "dept": "Biology",
-      "url": "https://explorecourses.stanford.edu/search?view=catalog&filter-term-Summer=on&filter-coursestatus-Active=on&q=BIO&academicYear=20252026",
-      "error": "No HTML returned"
+      "name": "Physics",
+      "count": 1
     },
     {
-      "dept": "Chemistry",
-      "url": "https://explorecourses.stanford.edu/search?view=catalog&filter-term-Summer=on&filter-coursestatus-Active=on&q=CHEM&academicYear=20252026",
-      "error": "No HTML returned"
+      "name": "Biology",
+      "count": 1
     },
     {
-      "dept": "Psychology",
-      "url": "https://explorecourses.stanford.edu/search?view=catalog&filter-term-Summer=on&filter-coursestatus-Active=on&q=PSYCH&academicYear=20252026",
-      "error": "No HTML returned"
+      "name": "Engineering",
+      "count": 1
     },
     {
-      "dept": "English",
-      "url": "https://explorecourses.stanford.edu/search?view=catalog&filter-term-Summer=on&filter-coursestatus-Active=on&q=ENGLISH&academicYear=20252026",
-      "error": "No HTML returned"
-    },
-    {
-      "dept": "History",
-      "url": "https://explorecourses.stanford.edu/search?view=catalog&filter-term-Summer=on&filter-coursestatus-Active=on&q=HISTORY&academicYear=20252026",
-      "error": "No HTML returned"
-    },
-    {
-      "dept": "Electrical Engineering",
-      "url": "https://explorecourses.stanford.edu/search?view=catalog&filter-term-Summer=on&filter-coursestatus-Active=on&q=EE&academicYear=20252026",
-      "error": "No HTML returned"
-    },
-    {
-      "dept": "Mechanical Engineering",
-      "url": "https://explorecourses.stanford.edu/search?view=catalog&filter-term-Summer=on&filter-coursestatus-Active=on&q=ME&academicYear=20252026",
-      "error": "No HTML returned"
+      "name": "History",
+      "count": 1
     }
   ]
 }

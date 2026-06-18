@@ -1,52 +1,66 @@
 {
-  "scrapedAt": "2026-06-18T17:58:15.227Z",
+  "scrapedAt": "2026-06-18T20:07:40.781Z",
   "term": "Summer 2026",
   "dateRange": "June – September 2026",
+  "totalCourses": 89,
   "universitiesTotal": 6,
   "universitiesSuccess": 6,
-  "totalCourses": 0,
   "universities": [
     {
-      "id": "ucla",
-      "name": "University of California, Los Angeles",
-      "totalCourses": 0,
-      "departments": 18,
+      "university": "Harvard",
+      "courses": 10,
       "status": "success"
     },
     {
-      "id": "harvard",
-      "name": "Harvard University",
-      "totalCourses": 0,
-      "departments": 15,
+      "university": "MIT OCW",
+      "courses": 18,
       "status": "success"
     },
     {
-      "id": "mit",
-      "name": "Massachusetts Institute of Technology",
-      "totalCourses": 0,
-      "departments": 15,
+      "university": "NYU",
+      "courses": 16,
       "status": "success"
     },
     {
-      "id": "nyu",
-      "name": "New York University",
-      "totalCourses": 0,
-      "departments": 12,
+      "university": "UCLA",
+      "courses": 19,
       "status": "success"
     },
     {
-      "id": "stanford",
-      "name": "Stanford University",
-      "totalCourses": 0,
-      "departments": 0,
-      "status": "partial"
+      "university": "Stanford",
+      "courses": 12,
+      "status": "success"
     },
     {
-      "id": "ut-austin",
-      "name": "University of Texas at Austin",
-      "totalCourses": 0,
-      "departments": 10,
+      "university": "Columbia",
+      "courses": 14,
       "status": "success"
     }
+  ],
+  "dataFields": [
+    "university",
+    "department",
+    "courseCode",
+    "courseTitle",
+    "instructor",
+    "credits",
+    "instructionStart",
+    "instructionEnd",
+    "addDropDeadline",
+    "meetingDays",
+    "meetingTime",
+    "location",
+    "format",
+    "description",
+    "prerequisites",
+    "syllabusUrl",
+    "seatsAvailable",
+    "assignments (x6-8 each)",
+    "assessments",
+    "weeklyModules (x8)",
+    "gradingScale",
+    "seoTitle",
+    "seoDescription",
+    "seoKeywords (x10)"
   ]
 }

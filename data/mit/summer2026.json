@@ -1,124 +1,69 @@
 {
   "id": "mit",
-  "name": "MIT",
   "fullName": "Massachusetts Institute of Technology",
-  "location": "Cambridge, MA",
-  "website": "https://www.mit.edu",
+  "shortName": "MIT",
+  "city": "Cambridge, MA",
+  "web": "https://www.mit.edu",
+  "dates": {
+    "sessions": [
+      {
+        "name": "Summer Session",
+        "start": "June 9, 2026",
+        "end": "August 19, 2026"
+      }
+    ],
+    "addDrop": "June 13, 2026"
+  },
   "term": "Summer 2026",
   "sessions": [
     {
+      "name": "Summer Session",
       "start": "June 9, 2026",
       "end": "August 19, 2026"
     }
   ],
-  "scrapedAt": "2026-06-18T17:59:35.729Z",
+  "scrapedAt": "2026-06-18T20:07:28.179Z",
+  "totalCourses": 18,
   "departments": [
     {
-      "name": "Computer Science & Engineering",
-      "code": "6",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=6",
-      "courses": [],
-      "count": 0
+      "name": "Computer Science",
+      "count": 4
     },
     {
       "name": "Mathematics",
-      "code": "18",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=18",
-      "courses": [],
-      "count": 0
+      "count": 3
     },
     {
       "name": "Physics",
-      "code": "8",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=8",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Chemistry",
-      "code": "5",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=5",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Biology",
-      "code": "7",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=7",
-      "courses": [],
-      "count": 0
+      "count": 2
     },
     {
       "name": "Economics",
-      "code": "14",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=14",
-      "courses": [],
-      "count": 0
+      "count": 2
+    },
+    {
+      "name": "Biology",
+      "count": 2
+    },
+    {
+      "name": "Chemistry",
+      "count": 1
+    },
+    {
+      "name": "Psychology & Brain Science",
+      "count": 1
     },
     {
       "name": "Political Science",
-      "code": "17",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=17",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Literature",
-      "code": "21L",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=21L",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Brain & Cognitive Sciences",
-      "code": "9",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=9",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Architecture",
-      "code": "4",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=4",
-      "courses": [],
-      "count": 0
+      "count": 1
     },
     {
       "name": "Electrical Engineering",
-      "code": "6.1",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=6.1",
-      "courses": [],
-      "count": 0
+      "count": 1
     },
     {
       "name": "Mechanical Engineering",
-      "code": "2",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=2",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Chemical Engineering",
-      "code": "10",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=10",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Civil Engineering",
-      "code": "1",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=1",
-      "courses": [],
-      "count": 0
-    },
-    {
-      "name": "Aeronautics & Astronautics",
-      "code": "16",
-      "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=16",
-      "courses": [],
-      "count": 0
+      "count": 1
     }
-  ],
-  "totalCourses": 0,
-  "errors": []
+  ]
 }

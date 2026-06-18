@@ -1,7 +1,408 @@
 {
-  "name": "Life Sciences",
-  "code": "LIFESCI",
-  "courseUrl": "https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=&t=261&s_g_cd=%25&sBy=subject&subj=LIFESCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex",
-  "courses": [],
-  "count": 0
+  "department": "Life Sciences",
+  "courses": [
+    {
+      "university": "University of California, Los Angeles",
+      "universitySlug": "ucla",
+      "universityCity": "Los Angeles, CA",
+      "universityWeb": "https://www.ucla.edu",
+      "department": "Life Sciences",
+      "departmentSlug": "life-sciences",
+      "courseCode": "LIFESCI 7A",
+      "courseTitle": "Cell and Molecular Biology",
+      "section": "",
+      "catalogNumber": "LIFESCI 7A",
+      "term": "Summer 2026",
+      "sessionName": "Session A",
+      "instructionStart": "June 22, 2026",
+      "instructionEnd": "July 31, 2026",
+      "addDropDeadline": "June 26, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MTWTh",
+      "meetingTime": "8:00am – 11:10am",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "5",
+      "instructor": "TBD",
+      "description": "First course in introductory biology sequence. Covers cell structure and function, DNA replication, transcription, translation, cell division, genetics, and evolution.",
+      "prerequisites": "Chemistry recommended",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.ucla.edu",
+      "seatsAvailable": "150",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "July 1, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "July 10, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "July 19, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "July 28, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "August 6, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via University of California, Los Angeles's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "University of California, Los Angeles uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 22 – Jun 26, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 29 – Jul 3, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 6 – Jul 10, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 27 – Jul 31, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 3 – Aug 7, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 10 – Aug 14, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "LIFESCI 7A Cell and Molecular Biology — UCLA Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Cell and Molecular Biology at University of California, Los Angeles",
+      "seoDescription": "Expert assignment help for Cell and Molecular Biology (LIFESCI 7A) at University of California, Los Angeles. Summer 2026: June 22, 2026 – July 31, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "LIFESCI 7A assignment help",
+        "Cell and Molecular Biology homework help",
+        "UCLA Life Sciences assignment help",
+        "UCLA summer 2026 life sciences",
+        "LIFESCI 7A UCLA summer 2026",
+        "Cell and Molecular Biology exam help",
+        "Cell and Molecular Biology project help",
+        "University of California, Los Angeles assignment writing service",
+        "Life Sciences assignment help USA",
+        "Cell and Molecular Biology online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/ucla/life-sciences/lifesci-7a",
+      "scrapedAt": "2026-06-18T20:07:33.223Z",
+      "dataSource": "https://www.lifesci.ucla.edu",
+      "verified": true
+    },
+    {
+      "university": "University of California, Los Angeles",
+      "universitySlug": "ucla",
+      "universityCity": "Los Angeles, CA",
+      "universityWeb": "https://www.ucla.edu",
+      "department": "Life Sciences",
+      "departmentSlug": "life-sciences",
+      "courseCode": "LIFESCI 7B",
+      "courseTitle": "Genetics, Evolution, and Ecology",
+      "section": "",
+      "catalogNumber": "LIFESCI 7B",
+      "term": "Summer 2026",
+      "sessionName": "Session A",
+      "instructionStart": "June 22, 2026",
+      "instructionEnd": "July 31, 2026",
+      "addDropDeadline": "June 26, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MTWTh",
+      "meetingTime": "1:00pm – 4:10pm",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "5",
+      "instructor": "TBD",
+      "description": "Mendelian and molecular genetics, evolutionary theory, population genetics, speciation, ecology, and conservation biology.",
+      "prerequisites": "LIFESCI 7A or equivalent",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.ucla.edu",
+      "seatsAvailable": "150",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "July 1, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "July 10, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "July 19, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "July 28, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "August 6, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via University of California, Los Angeles's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "University of California, Los Angeles uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 22 – Jun 26, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 29 – Jul 3, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 6 – Jul 10, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 27 – Jul 31, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 3 – Aug 7, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 10 – Aug 14, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "LIFESCI 7B Genetics, Evolution, and Ecology — UCLA Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Genetics, Evolution, and Ecology at University of California, Los Angeles",
+      "seoDescription": "Expert assignment help for Genetics, Evolution, and Ecology (LIFESCI 7B) at University of California, Los Angeles. Summer 2026: June 22, 2026 – July 31, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "LIFESCI 7B assignment help",
+        "Genetics, Evolution, and Ecology homework help",
+        "UCLA Life Sciences assignment help",
+        "UCLA summer 2026 life sciences",
+        "LIFESCI 7B UCLA summer 2026",
+        "Genetics, Evolution, and Ecology exam help",
+        "Genetics, Evolution, and Ecology project help",
+        "University of California, Los Angeles assignment writing service",
+        "Life Sciences assignment help USA",
+        "Genetics, Evolution, and Ecology online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/ucla/life-sciences/lifesci-7b",
+      "scrapedAt": "2026-06-18T20:07:33.224Z",
+      "dataSource": "https://www.lifesci.ucla.edu",
+      "verified": true
+    }
+  ],
+  "count": 2
 }

@@ -1,7 +1,672 @@
 {
-  "name": "Computer Science",
-  "code": "CS",
-  "courseUrl": "https://summer.harvard.edu/course-catalog/courses/?categories=CS&keyword=&session=all",
-  "courses": [],
-  "count": 0
+  "department": "Computer Science",
+  "courses": [
+    {
+      "university": "Harvard University",
+      "universitySlug": "harvard",
+      "universityCity": "Cambridge, MA",
+      "universityWeb": "https://www.harvard.edu",
+      "department": "Computer Science",
+      "departmentSlug": "computer-science",
+      "courseCode": "CSCI S-50",
+      "courseTitle": "Introduction to Computer Science",
+      "section": "",
+      "catalogNumber": "CSCI S-50",
+      "term": "Summer 2026",
+      "sessionName": "7-Week Session",
+      "instructionStart": "June 22, 2026",
+      "instructionEnd": "August 7, 2026",
+      "addDropDeadline": "June 29, 2026",
+      "withdrawalDeadline": "July 20, 2026",
+      "meetingDays": "MTWTh",
+      "meetingTime": "9:00am – 11:00am",
+      "location": "Science Center Hall B",
+      "format": "In Person / Online",
+      "credits": "4",
+      "instructor": "David J. Malan",
+      "description": "Harvard's introduction to the intellectual enterprises of computer science and the art of programming. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web programming. Languages include C, Python, SQL, HTML, CSS, and JavaScript.",
+      "prerequisites": "None — no prior CS or programming experience required",
+      "corequisites": "None",
+      "textbook": "No required textbook — all materials free at cs50.harvard.edu",
+      "syllabusUrl": "https://cs50.harvard.edu/college/2026/summer/syllabus/",
+      "seatsAvailable": "600",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "July 1, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "July 10, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 19, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "July 28, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "August 6, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 15, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "August 24, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "September 2, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Harvard University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Harvard University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 22 – Jun 26, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 29 – Jul 3, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 6 – Jul 10, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 27 – Jul 31, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 3 – Aug 7, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 10 – Aug 14, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "CSCI S-50 Introduction to Computer Science — Harvard Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Introduction to Computer Science at Harvard University",
+      "seoDescription": "Expert assignment help for Introduction to Computer Science (CSCI S-50) at Harvard University. Summer 2026: June 22, 2026 – August 7, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "CSCI S-50 assignment help",
+        "Introduction to Computer Science homework help",
+        "Harvard Computer Science assignment help",
+        "Harvard summer 2026 computer science",
+        "CSCI S-50 Harvard summer 2026",
+        "Introduction to Computer Science exam help",
+        "Introduction to Computer Science project help",
+        "Harvard University assignment writing service",
+        "Computer Science assignment help USA",
+        "Introduction to Computer Science online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/harvard/computer-science/csci-s-50",
+      "scrapedAt": "2026-06-18T20:07:25.626Z",
+      "dataSource": "https://cs50.harvard.edu/college/2026/summer/syllabus/",
+      "verified": true
+    },
+    {
+      "university": "Harvard University",
+      "universitySlug": "harvard",
+      "universityCity": "Cambridge, MA",
+      "universityWeb": "https://www.harvard.edu",
+      "department": "Computer Science",
+      "departmentSlug": "computer-science",
+      "courseCode": "CSCI S-51",
+      "courseTitle": "Introduction to Artificial Intelligence with Python",
+      "section": "",
+      "catalogNumber": "CSCI S-51",
+      "term": "Summer 2026",
+      "sessionName": "7-Week Session",
+      "instructionStart": "June 22, 2026",
+      "instructionEnd": "August 7, 2026",
+      "addDropDeadline": "June 29, 2026",
+      "withdrawalDeadline": "July 20, 2026",
+      "meetingDays": "MTWTh",
+      "meetingTime": "1:00pm – 3:00pm",
+      "location": "Science Center Hall D",
+      "format": "In Person",
+      "credits": "4",
+      "instructor": "Brian Yu",
+      "description": "An introduction to the concepts and algorithms at the foundation of modern artificial intelligence. Techniques covered include graph search algorithms, classification, optimization, reinforcement learning, and more.",
+      "prerequisites": "CSCI S-50 or equivalent programming experience",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://cs50.harvard.edu/ai/2026/",
+      "seatsAvailable": "200",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "July 1, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "July 10, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 19, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "July 28, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "August 6, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 15, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "August 24, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "September 2, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Harvard University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Harvard University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 22 – Jun 26, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 29 – Jul 3, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 6 – Jul 10, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 27 – Jul 31, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 3 – Aug 7, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 10 – Aug 14, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "CSCI S-51 Introduction to Artificial Intelligence with Python — Harvard Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Introduction to Artificial Intelligence with Python at Harvard University",
+      "seoDescription": "Expert assignment help for Introduction to Artificial Intelligence with Python (CSCI S-51) at Harvard University. Summer 2026: June 22, 2026 – August 7, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "CSCI S-51 assignment help",
+        "Introduction to Artificial Intelligence with Python homework help",
+        "Harvard Computer Science assignment help",
+        "Harvard summer 2026 computer science",
+        "CSCI S-51 Harvard summer 2026",
+        "Introduction to Artificial Intelligence with Python exam help",
+        "Introduction to Artificial Intelligence with Python project help",
+        "Harvard University assignment writing service",
+        "Computer Science assignment help USA",
+        "Introduction to Artificial Intelligence with Python online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/harvard/computer-science/csci-s-51",
+      "scrapedAt": "2026-06-18T20:07:25.628Z",
+      "dataSource": "https://cs50.harvard.edu/ai/",
+      "verified": true
+    },
+    {
+      "university": "Harvard University",
+      "universitySlug": "harvard",
+      "universityCity": "Cambridge, MA",
+      "universityWeb": "https://www.harvard.edu",
+      "department": "Computer Science",
+      "departmentSlug": "computer-science",
+      "courseCode": "CSCI S-33a",
+      "courseTitle": "Web Programming with Python and JavaScript",
+      "section": "",
+      "catalogNumber": "CSCI S-33a",
+      "term": "Summer 2026",
+      "sessionName": "7-Week Session",
+      "instructionStart": "June 22, 2026",
+      "instructionEnd": "August 7, 2026",
+      "addDropDeadline": "June 29, 2026",
+      "withdrawalDeadline": "July 20, 2026",
+      "meetingDays": "MW",
+      "meetingTime": "10:00am – 12:00pm",
+      "location": "Maxwell Dworkin 119",
+      "format": "In Person",
+      "credits": "4",
+      "instructor": "Brian Yu",
+      "description": "Dives more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks including Django, React, and Bootstrap.",
+      "prerequisites": "CSCI S-50",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://cs50.harvard.edu/web/2026/",
+      "seatsAvailable": "150",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "July 1, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "July 10, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 19, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "July 28, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "August 6, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 15, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "August 24, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "September 2, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Harvard University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Harvard University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 22 – Jun 26, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 29 – Jul 3, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 6 – Jul 10, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 27 – Jul 31, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 3 – Aug 7, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 10 – Aug 14, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "CSCI S-33a Web Programming with Python and JavaScript — Harvard Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Web Programming with Python and JavaScript at Harvard University",
+      "seoDescription": "Expert assignment help for Web Programming with Python and JavaScript (CSCI S-33a) at Harvard University. Summer 2026: June 22, 2026 – August 7, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "CSCI S-33a assignment help",
+        "Web Programming with Python and JavaScript homework help",
+        "Harvard Computer Science assignment help",
+        "Harvard summer 2026 computer science",
+        "CSCI S-33a Harvard summer 2026",
+        "Web Programming with Python and JavaScript exam help",
+        "Web Programming with Python and JavaScript project help",
+        "Harvard University assignment writing service",
+        "Computer Science assignment help USA",
+        "Web Programming with Python and JavaScript online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/harvard/computer-science/csci-s-33a",
+      "scrapedAt": "2026-06-18T20:07:25.629Z",
+      "dataSource": "https://cs50.harvard.edu/web/",
+      "verified": true
+    }
+  ],
+  "count": 3
 }

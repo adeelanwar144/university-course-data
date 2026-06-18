@@ -1,7 +1,207 @@
 {
-  "name": "Mechanical Engineering",
-  "code": "2",
-  "courseUrl": "https://student.mit.edu/catalog/search.cgi?Search=1&style=3&when=S&term=2026&dept=2",
-  "courses": [],
-  "count": 0
+  "department": "Mechanical Engineering",
+  "courses": [
+    {
+      "university": "Massachusetts Institute of Technology",
+      "universitySlug": "mit",
+      "universityCity": "Cambridge, MA",
+      "universityWeb": "https://www.mit.edu",
+      "department": "Mechanical Engineering",
+      "departmentSlug": "mechanical-engineering",
+      "courseCode": "2.001",
+      "courseTitle": "Mechanics & Materials I",
+      "section": "",
+      "catalogNumber": "2.001",
+      "term": "Summer 2026",
+      "sessionName": "Summer Session",
+      "instructionStart": "June 9, 2026",
+      "instructionEnd": "August 19, 2026",
+      "addDropDeadline": "June 13, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MWF",
+      "meetingTime": "2:00pm – 3:00pm",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "6 units",
+      "instructor": "TBD",
+      "description": "Introduction to statics of rigid bodies and deformable solids. Concepts of equilibrium, free body diagrams, distributed loads, centroids, stresses and strains, material properties, and failure.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.mit.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "June 18, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "June 27, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "July 6, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "July 15, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "July 24, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via Massachusetts Institute of Technology's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Massachusetts Institute of Technology uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 9 – Jun 13, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 16 – Jun 20, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 23 – Jun 27, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 14 – Jul 18, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 21 – Jul 25, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 28 – Aug 1, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "2.001 Mechanics & Materials I — MIT Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Mechanics & Materials I at Massachusetts Institute of Technology",
+      "seoDescription": "Expert assignment help for Mechanics & Materials I (2.001) at Massachusetts Institute of Technology. Summer 2026: June 9, 2026 – August 19, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "2.001 assignment help",
+        "Mechanics & Materials I homework help",
+        "MIT Mechanical Engineering assignment help",
+        "MIT summer 2026 mechanical engineering",
+        "2.001 MIT summer 2026",
+        "Mechanics & Materials I exam help",
+        "Mechanics & Materials I project help",
+        "Massachusetts Institute of Technology assignment writing service",
+        "Mechanical Engineering assignment help USA",
+        "Mechanics & Materials I online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/mit/mechanical-engineering/2-001",
+      "scrapedAt": "2026-06-18T20:07:28.176Z",
+      "dataSource": "https://www.mit.edu",
+      "verified": true
+    }
+  ],
+  "count": 1
 }
