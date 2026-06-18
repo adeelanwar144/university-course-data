@@ -2,121 +2,63 @@ name: 🎓 Scrape University Summer 2026 Courses
 
 on:
   schedule:
-    # Runs every day at 3:00 AM UTC — completely free on GitHub Actions
     - cron: '0 3 * * *'
-
-  # Also allows manual trigger from GitHub Actions tab
   workflow_dispatch:
-    inputs:
-      university:
-        description: 'Specific university to scrape (leave empty for all)'
-        required: false
-        default: ''
 
 jobs:
   scrape:
     name: Scrape Course Data
-    runs-on: ubuntu-latest    # Free GitHub-hosted runner — full internet access
+    runs-on: ubuntu-latest
 
     permissions:
-      contents: write          # Allows committing scraped data back to repo
+      contents: write
 
     steps:
-      # ── 1. CHECKOUT ──────────────────────────────────────────────────────
       - name: 📥 Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── 2. NODE SETUP ────────────────────────────────────────────────────
-      - name: ⚙️ Setup Node.js 20
+      - name: ⚙️ Setup Node.js 24
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: '24'
 
-      # ── 3. INSTALL DEPENDENCIES ──────────────────────────────────────────
       - name: 📦 Install dependencies
         run: |
-          npm init -y
           npm install puppeteer cheerio axios
-
-          # Puppeteer downloads Chromium automatically — ~300MB, free
           echo "✅ Dependencies installed"
-          node -e "console.log('Node:', process.version)"
 
-      # ── 4. INSTALL CHROMIUM DEPENDENCIES (Ubuntu) ────────────────────────
       - name: 🌐 Install Chromium system dependencies
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y \
-            chromium-browser \
-            libnss3 \
-            libxss1 \
-            libasound2 \
-            libatk-bridge2.0-0 \
-            libgtk-3-0 \
-            libgbm-dev \
-            --no-install-recommends
+          sudo apt-get install -y chromium-browser libnss3 libxss1 libasound2t64 libatk-bridge2.0-0 libgtk-3-0 libgbm-dev --no-install-recommends
 
-      # ── 5. CREATE OUTPUT DIRECTORY ───────────────────────────────────────
       - name: 📁 Prepare data directory
-        run: |
-          mkdir -p data
-          echo "Data directory ready"
+        run: mkdir -p data
 
-      # ── 6. RUN SCRAPER ───────────────────────────────────────────────────
       - name: 🔍 Scrape university courses
         run: node scraper.js
-        timeout-minutes: 50       # Max 50 min per run — well within 2000 min/month free limit
+        timeout-minutes: 50
         env:
           PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
           NODE_ENV: production
 
-      # ── 7. SHOW SUMMARY ──────────────────────────────────────────────────
       - name: 📊 Show scraping summary
         run: |
           if [ -f data/index.json ]; then
             echo "=== SCRAPING SUMMARY ==="
-            cat data/index.json | node -e "
-              const data = JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
-              console.log('Total universities:', data.universitiesSuccess + '/' + data.universitiesTotal);
-              console.log('Total courses scraped:', data.totalCourses);
-              console.log('Scraped at:', data.scrapedAt);
-              data.universities.forEach(u => {
-                console.log(u.status === 'success' ? '✅' : '⚠️', u.name + ':', u.totalCourses || 0, 'courses');
-              });
-            "
+            cat data/index.json
           fi
 
-          echo ""
-          echo "=== DATA FILES CREATED ==="
-          find data/ -name "*.json" | head -40
-
-      # ── 8. COMMIT & PUSH DATA ────────────────────────────────────────────
-      - name: 💾 Commit scraped data to repository
+      - name: 💾 Commit scraped data
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add data/
-
-          # Only commit if there are changes
           if git diff --staged --quiet; then
-            echo "No changes to commit — data is already up to date"
+            echo "No changes to commit"
           else
-            COURSE_COUNT=$(cat data/index.json | node -e "const d=JSON.parse(require('fs').readFileSync('/dev/stdin','utf8')); console.log(d.totalCourses)" 2>/dev/null || echo "?")
-            git commit -m "📚 Update Summer 2026 course data — ${COURSE_COUNT} courses — $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git commit -m "📚 Update Summer 2026 course data - $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
-            echo "✅ Data pushed to repository"
           fi
-
-      # ── 9. NOTIFY ON FAILURE ─────────────────────────────────────────────
-      - name: ❌ Handle failure
-        if: failure()
-        run: |
-          echo "Scraper failed. Check logs above."
-          echo "Common causes:"
-          echo "  - University website changed their HTML structure"
-          echo "  - Rate limiting — try increasing REQUEST_DELAY_MS"
-          echo "  - Network timeout — try reducing number of departments"
