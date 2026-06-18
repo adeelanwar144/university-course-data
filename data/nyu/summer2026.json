@@ -1,0 +1,107 @@
+{
+  "id": "nyu",
+  "name": "NYU",
+  "fullName": "New York University",
+  "location": "New York, NY",
+  "website": "https://www.nyu.edu",
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "start": "May 18, 2026",
+      "end": "June 30, 2026"
+    },
+    {
+      "start": "July 1, 2026",
+      "end": "August 12, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-18T18:00:09.842Z",
+  "departments": [
+    {
+      "name": "English",
+      "code": "ENGL-UA",
+      "courseUrl": "https://bulletins.nyu.edu/class-search/?term=summer2026&subject=ENGL-UA",
+      "courses": [],
+      "count": 0
+    },
+    {
+      "name": "Mathematics",
+      "code": "MATH-UA",
+      "courseUrl": "https://bulletins.nyu.edu/class-search/?term=summer2026&subject=MATH-UA",
+      "courses": [],
+      "count": 0
+    },
+    {
+      "name": "Computer Science",
+      "code": "CSCI-UA",
+      "courseUrl": "https://bulletins.nyu.edu/class-search/?term=summer2026&subject=CSCI-UA",
+      "courses": [],
+      "count": 0
+    },
+    {
+      "name": "Economics",
+      "code": "ECON-UA",
+      "courseUrl": "https://bulletins.nyu.edu/class-search/?term=summer2026&subject=ECON-UA",
+      "courses": [],
+      "count": 0
+    },
+    {
+      "name": "Physics",
+      "code": "PHYS-UA",
+      "courseUrl": "https://bulletins.nyu.edu/class-search/?term=summer2026&subject=PHYS-UA",
+      "courses": [],
+      "count": 0
+    },
+    {
+      "name": "Chemistry",
+      "code": "CHEM-UA",
+      "courseUrl": "https://bulletins.nyu.edu/class-search/?term=summer2026&subject=CHEM-UA",
+      "courses": [],
+      "count": 0
+    },
+    {
+      "name": "Biology",
+      "code": "BIOL-UA",
+      "courseUrl": "https://bulletins.nyu.edu/class-search/?term=summer2026&subject=BIOL-UA",
+      "courses": [],
+      "count": 0
+    },
+    {
+      "name": "Psychology",
+      "code": "PSYCH-UA",
+      "courseUrl": "https://bulletins.nyu.edu/class-search/?term=summer2026&subject=PSYCH-UA",
+      "courses": [],
+      "count": 0
+    },
+    {
+      "name": "Sociology",
+      "code": "SOC-UA",
+      "courseUrl": "https://bulletins.nyu.edu/class-search/?term=summer2026&subject=SOC-UA",
+      "courses": [],
+      "count": 0
+    },
+    {
+      "name": "History",
+      "code": "HIST-UA",
+      "courseUrl": "https://bulletins.nyu.edu/class-search/?term=summer2026&subject=HIST-UA",
+      "courses": [],
+      "count": 0
+    },
+    {
+      "name": "Politics",
+      "code": "POL-UA",
+      "courseUrl": "https://bulletins.nyu.edu/class-search/?term=summer2026&subject=POL-UA",
+      "courses": [],
+      "count": 0
+    },
+    {
+      "name": "Philosophy",
+      "code": "PHIL-UA",
+      "courseUrl": "https://bulletins.nyu.edu/class-search/?term=summer2026&subject=PHIL-UA",
+      "courses": [],
+      "count": 0
+    }
+  ],
+  "totalCourses": 0,
+  "errors": []
+}
