@@ -1,4 +1,4 @@
-name: 🎓 Scrape University Summer 2026 Courses
+name: Scrape University Summer 2026 Courses
 
 on:
   schedule:
@@ -9,56 +9,40 @@ jobs:
   scrape:
     name: Scrape Course Data
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
     steps:
-      - name: 📥 Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: ⚙️ Setup Node.js 24
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '20'
 
-      - name: 📦 Install dependencies
-        run: |
-          npm install puppeteer cheerio axios
-          echo "✅ Dependencies installed"
+      - name: Install dependencies
+        run: npm install puppeteer cheerio axios
 
-      - name: 🌐 Install Chromium system dependencies
+      - name: Install Chromium
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y chromium-browser libnss3 libxss1 libasound2t64 libatk-bridge2.0-0 libgtk-3-0 libgbm-dev --no-install-recommends
+          sudo apt-get install -y chromium-browser --no-install-recommends
 
-      - name: 📁 Prepare data directory
+      - name: Create data directory
         run: mkdir -p data
 
-      - name: 🔍 Scrape university courses
+      - name: Run scraper
         run: node scraper.js
         timeout-minutes: 50
         env:
           PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
-          NODE_ENV: production
 
-      - name: 📊 Show scraping summary
-        run: |
-          if [ -f data/index.json ]; then
-            echo "=== SCRAPING SUMMARY ==="
-            cat data/index.json
-          fi
-
-      - name: 💾 Commit scraped data
+      - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "📚 Update Summer 2026 course data - $(date -u '+%Y-%m-%d %H:%M UTC')"
-            git push
-          fi
+          git diff --staged --quiet || git commit -m "Update course data $(date -u '+%Y-%m-%d')" && git push
