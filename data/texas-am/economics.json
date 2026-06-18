@@ -1,0 +1,228 @@
+{
+  "department": "Economics",
+  "courses": [
+    {
+      "university": "Texas A&M University",
+      "universitySlug": "texas-am",
+      "universityCity": "College Station, TX",
+      "universityWeb": "https://www.tamu.edu",
+      "department": "Economics",
+      "departmentSlug": "economics",
+      "courseCode": "ECON-202",
+      "courseTitle": "Principles of Economics",
+      "section": "",
+      "catalogNumber": "ECON-202",
+      "term": "Summer 2026",
+      "sessionName": "Session II",
+      "instructionStart": "July 13, 2026",
+      "instructionEnd": "August 13, 2026",
+      "addDropDeadline": "June 9, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "Online",
+      "meetingTime": "Asynchronous",
+      "location": "See registrar",
+      "format": "Online",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "Introduction to microeconomics and macroeconomics. Supply and demand, market structures, national income, and monetary policy.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.tamu.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "July 22, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "July 31, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "August 9, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "August 18, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "August 27, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "September 5, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "September 14, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "September 23, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Texas A&M University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Texas A&M University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 27 – Jul 31, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Aug 3 – Aug 7, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Aug 10 – Aug 14, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Aug 17 – Aug 21, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 24 – Aug 28, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 31 – Sep 4, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "ECON-202 Principles of Economics — Texas A&M Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Principles of Economics at Texas A&M University",
+      "seoDescription": "Expert assignment help for Principles of Economics (ECON-202) at Texas A&M University. Summer 2026: July 13, 2026 – August 13, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "ECON-202 assignment help",
+        "Principles of Economics homework help",
+        "Texas A&M Economics assignment help",
+        "Texas A&M summer 2026 economics",
+        "ECON-202 Texas A&M summer 2026",
+        "Principles of Economics exam help",
+        "Principles of Economics project help",
+        "Texas A&M University assignment writing service",
+        "Economics assignment help USA",
+        "Principles of Economics online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/texas-am/economics/econ-202",
+      "scrapedAt": "2026-06-18T22:04:49.678Z",
+      "dataSource": "https://registrar.tamu.edu/academic-calendar/summer-2026",
+      "verified": true
+    }
+  ],
+  "count": 1
+}

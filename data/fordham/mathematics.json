@@ -1,0 +1,450 @@
+{
+  "department": "Mathematics",
+  "courses": [
+    {
+      "university": "Fordham University",
+      "universitySlug": "fordham",
+      "universityCity": "New York, NY (Bronx & Manhattan)",
+      "universityWeb": "https://www.fordham.edu",
+      "department": "Mathematics",
+      "departmentSlug": "mathematics",
+      "courseCode": "MATH-1206",
+      "courseTitle": "Calculus I",
+      "section": "",
+      "catalogNumber": "MATH-1206",
+      "term": "Summer 2026",
+      "sessionName": "Session 1",
+      "instructionStart": "May 26, 2026",
+      "instructionEnd": "June 25, 2026",
+      "addDropDeadline": "May 27, 2026",
+      "withdrawalDeadline": "June 18, 2026",
+      "meetingDays": "MTWTh",
+      "meetingTime": "10:00AM – 1:00PM",
+      "location": "See registrar",
+      "format": "In Person (Rose Hill)",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "Differential calculus of one variable. Limits, continuity, derivatives of algebraic and transcendental functions, applications to graphing, optimization, and related rates.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.fordham.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "June 4, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "June 13, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "June 22, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "July 1, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "July 10, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "July 19, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "July 28, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "August 6, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Fordham University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Fordham University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "May 26 – May 30, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 2 – Jun 6, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 9 – Jun 13, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 16 – Jun 20, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jun 23 – Jun 27, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 14 – Jul 18, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "MATH-1206 Calculus I — Fordham Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Calculus I at Fordham University",
+      "seoDescription": "Expert assignment help for Calculus I (MATH-1206) at Fordham University. Summer 2026: May 26, 2026 – June 25, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "MATH-1206 assignment help",
+        "Calculus I homework help",
+        "Fordham Mathematics assignment help",
+        "Fordham summer 2026 mathematics",
+        "MATH-1206 Fordham summer 2026",
+        "Calculus I exam help",
+        "Calculus I project help",
+        "Fordham University assignment writing service",
+        "Mathematics assignment help USA",
+        "Calculus I online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/fordham/mathematics/math-1206",
+      "scrapedAt": "2026-06-18T22:04:34.535Z",
+      "dataSource": "https://www.fordham.edu/summer-session/",
+      "verified": true
+    },
+    {
+      "university": "Fordham University",
+      "universitySlug": "fordham",
+      "universityCity": "New York, NY (Bronx & Manhattan)",
+      "universityWeb": "https://www.fordham.edu",
+      "department": "Mathematics",
+      "departmentSlug": "mathematics",
+      "courseCode": "MATH-1207",
+      "courseTitle": "Calculus II",
+      "section": "",
+      "catalogNumber": "MATH-1207",
+      "term": "Summer 2026",
+      "sessionName": "Session 2",
+      "instructionStart": "June 30, 2026",
+      "instructionEnd": "August 4, 2026",
+      "addDropDeadline": "May 27, 2026",
+      "withdrawalDeadline": "June 18, 2026",
+      "meetingDays": "MTWTh",
+      "meetingTime": "10:00AM – 1:00PM",
+      "location": "See registrar",
+      "format": "In Person (Lincoln Center)",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "Integral calculus. Techniques of integration, applications of the definite integral, sequences and series, introduction to differential equations.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.fordham.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "July 9, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "July 18, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 27, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "August 5, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "August 14, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 23, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "September 1, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "September 10, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Fordham University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Fordham University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 14 – Jul 18, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jul 21 – Jul 25, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 28 – Aug 1, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Aug 4 – Aug 8, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 11 – Aug 15, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 18 – Aug 22, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "MATH-1207 Calculus II — Fordham Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Calculus II at Fordham University",
+      "seoDescription": "Expert assignment help for Calculus II (MATH-1207) at Fordham University. Summer 2026: June 30, 2026 – August 4, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "MATH-1207 assignment help",
+        "Calculus II homework help",
+        "Fordham Mathematics assignment help",
+        "Fordham summer 2026 mathematics",
+        "MATH-1207 Fordham summer 2026",
+        "Calculus II exam help",
+        "Calculus II project help",
+        "Fordham University assignment writing service",
+        "Mathematics assignment help USA",
+        "Calculus II online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/fordham/mathematics/math-1207",
+      "scrapedAt": "2026-06-18T22:04:34.536Z",
+      "dataSource": "https://www.fordham.edu/summer-session/",
+      "verified": true
+    }
+  ],
+  "count": 2
+}

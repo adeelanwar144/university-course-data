@@ -1,0 +1,450 @@
+{
+  "department": "Economics",
+  "courses": [
+    {
+      "university": "Boston University",
+      "universitySlug": "boston-university",
+      "universityCity": "Boston, MA",
+      "universityWeb": "https://www.bu.edu",
+      "department": "Economics",
+      "departmentSlug": "economics",
+      "courseCode": "CAS EC 101",
+      "courseTitle": "Introductory Microeconomic Analysis",
+      "section": "",
+      "catalogNumber": "CAS EC 101",
+      "term": "Summer 2026",
+      "sessionName": "Summer Session",
+      "instructionStart": "May 19, 2026",
+      "instructionEnd": "August 21, 2026",
+      "addDropDeadline": "May 26, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MTWTh",
+      "meetingTime": "9:30AM – 11:00AM",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "4",
+      "instructor": "TBD",
+      "description": "Price theory, supply and demand, consumer behavior, theory of the firm, market structure, factor markets, income distribution, general equilibrium, and welfare economics.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.bu.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "May 28, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "June 6, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "June 15, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "June 24, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "July 3, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "July 12, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "July 21, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "July 30, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Boston University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Boston University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "May 19 – May 23, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "May 26 – May 30, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 2 – Jun 6, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 9 – Jun 13, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jun 16 – Jun 20, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jun 23 – Jun 27, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "CAS EC 101 Introductory Microeconomic Analysis — BU Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Introductory Microeconomic Analysis at Boston University",
+      "seoDescription": "Expert assignment help for Introductory Microeconomic Analysis (CAS EC 101) at Boston University. Summer 2026: May 19, 2026 – August 21, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "CAS EC 101 assignment help",
+        "Introductory Microeconomic Analysis homework help",
+        "BU Economics assignment help",
+        "BU summer 2026 economics",
+        "CAS EC 101 BU summer 2026",
+        "Introductory Microeconomic Analysis exam help",
+        "Introductory Microeconomic Analysis project help",
+        "Boston University assignment writing service",
+        "Economics assignment help USA",
+        "Introductory Microeconomic Analysis online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/boston-university/economics/cas-ec-101",
+      "scrapedAt": "2026-06-18T22:04:39.573Z",
+      "dataSource": "https://www.bu.edu/summer/courses/high-school",
+      "verified": true
+    },
+    {
+      "university": "Boston University",
+      "universitySlug": "boston-university",
+      "universityCity": "Boston, MA",
+      "universityWeb": "https://www.bu.edu",
+      "department": "Economics",
+      "departmentSlug": "economics",
+      "courseCode": "CAS EC 102",
+      "courseTitle": "Introductory Macroeconomic Analysis",
+      "section": "",
+      "catalogNumber": "CAS EC 102",
+      "term": "Summer 2026",
+      "sessionName": "Summer Session",
+      "instructionStart": "May 19, 2026",
+      "instructionEnd": "August 21, 2026",
+      "addDropDeadline": "May 26, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MTWTh",
+      "meetingTime": "2:00PM – 3:30PM",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "4",
+      "instructor": "TBD",
+      "description": "National income analysis, business cycles, monetary and fiscal policy, international trade and finance, and economic growth.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.bu.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "May 28, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "June 6, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "June 15, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "June 24, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "July 3, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "July 12, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "July 21, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "July 30, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Boston University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Boston University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "May 19 – May 23, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "May 26 – May 30, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 2 – Jun 6, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 9 – Jun 13, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jun 16 – Jun 20, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jun 23 – Jun 27, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "CAS EC 102 Introductory Macroeconomic Analysis — BU Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Introductory Macroeconomic Analysis at Boston University",
+      "seoDescription": "Expert assignment help for Introductory Macroeconomic Analysis (CAS EC 102) at Boston University. Summer 2026: May 19, 2026 – August 21, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "CAS EC 102 assignment help",
+        "Introductory Macroeconomic Analysis homework help",
+        "BU Economics assignment help",
+        "BU summer 2026 economics",
+        "CAS EC 102 BU summer 2026",
+        "Introductory Macroeconomic Analysis exam help",
+        "Introductory Macroeconomic Analysis project help",
+        "Boston University assignment writing service",
+        "Economics assignment help USA",
+        "Introductory Macroeconomic Analysis online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/boston-university/economics/cas-ec-102",
+      "scrapedAt": "2026-06-18T22:04:39.574Z",
+      "dataSource": "https://www.bu.edu/summer/courses/high-school",
+      "verified": true
+    }
+  ],
+  "count": 2
+}

@@ -1,0 +1,65 @@
+{
+  "id": "sdsu",
+  "fullName": "San Diego State University",
+  "shortName": "SDSU",
+  "city": "San Diego, CA",
+  "web": "https://www.sdsu.edu",
+  "dates": {
+    "session1": {
+      "name": "Session I",
+      "start": "June 1, 2026",
+      "end": "July 10, 2026"
+    },
+    "session2": {
+      "name": "Session II",
+      "start": "July 13, 2026",
+      "end": "August 21, 2026"
+    },
+    "addDrop": "June 5, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Session I",
+      "start": "June 1, 2026",
+      "end": "July 10, 2026"
+    },
+    {
+      "name": "Session II",
+      "start": "July 13, 2026",
+      "end": "August 21, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-18T22:04:57.227Z",
+  "totalCourses": 9,
+  "departments": [
+    {
+      "name": "Computer Science",
+      "count": 2
+    },
+    {
+      "name": "Mathematics",
+      "count": 2
+    },
+    {
+      "name": "Business",
+      "count": 1
+    },
+    {
+      "name": "Engineering",
+      "count": 1
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    },
+    {
+      "name": "Biology",
+      "count": 1
+    }
+  ]
+}

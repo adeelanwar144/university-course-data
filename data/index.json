@@ -1,10 +1,10 @@
 {
-  "scrapedAt": "2026-06-18T20:07:40.781Z",
+  "scrapedAt": "2026-06-18T22:05:04.768Z",
   "term": "Summer 2026",
   "dateRange": "June – September 2026",
-  "totalCourses": 89,
-  "universitiesTotal": 6,
-  "universitiesSuccess": 6,
+  "totalCourses": 240,
+  "universitiesTotal": 18,
+  "universitiesSuccess": 18,
   "universities": [
     {
       "university": "Harvard",
@@ -34,6 +34,66 @@
     {
       "university": "Columbia",
       "courses": 14,
+      "status": "success"
+    },
+    {
+      "university": "Fordham",
+      "courses": 25,
+      "status": "success"
+    },
+    {
+      "university": "Ivy Tech",
+      "courses": 12,
+      "status": "success"
+    },
+    {
+      "university": "Boston University",
+      "courses": 15,
+      "status": "success"
+    },
+    {
+      "university": "U of Toledo",
+      "courses": 11,
+      "status": "success"
+    },
+    {
+      "university": "UConn",
+      "courses": 15,
+      "status": "success"
+    },
+    {
+      "university": "ASU",
+      "courses": 14,
+      "status": "success"
+    },
+    {
+      "university": "Texas A&M",
+      "courses": 12,
+      "status": "success"
+    },
+    {
+      "university": "Western Michigan",
+      "courses": 9,
+      "status": "success"
+    },
+    {
+      "university": "Eastern Michigan",
+      "courses": 8,
+      "status": "success"
+    },
+    {
+      "university": "San Diego State",
+      "courses": 9,
+      "status": "success"
+    },
+    {
+      "university": "Ohio University",
+      "courses": 9,
+      "status": "success"
+    },
+    {
+      "university": "U of Michigan",
+      "courses": 12,
       "status": "success"
     }
   ],

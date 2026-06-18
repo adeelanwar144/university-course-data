@@ -1,0 +1,75 @@
+{
+  "id": "western-michigan",
+  "fullName": "Western Michigan University",
+  "shortName": "WMU",
+  "city": "Kalamazoo, MI",
+  "web": "https://wmich.edu",
+  "dates": {
+    "session1": {
+      "name": "Session I",
+      "start": "May 4, 2026",
+      "end": "June 26, 2026"
+    },
+    "session2": {
+      "name": "Session II",
+      "start": "June 29, 2026",
+      "end": "August 14, 2026"
+    },
+    "session3": {
+      "name": "Session III",
+      "start": "May 4, 2026",
+      "end": "August 14, 2026"
+    },
+    "addDrop": "May 8, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Session I",
+      "start": "May 4, 2026",
+      "end": "June 26, 2026"
+    },
+    {
+      "name": "Session II",
+      "start": "June 29, 2026",
+      "end": "August 14, 2026"
+    },
+    {
+      "name": "Session III",
+      "start": "May 4, 2026",
+      "end": "August 14, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-18T22:04:52.197Z",
+  "totalCourses": 9,
+  "departments": [
+    {
+      "name": "Computer Science",
+      "count": 2
+    },
+    {
+      "name": "Mathematics",
+      "count": 2
+    },
+    {
+      "name": "Business",
+      "count": 1
+    },
+    {
+      "name": "Engineering",
+      "count": 1
+    },
+    {
+      "name": "Aviation",
+      "count": 1
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    },
+    {
+      "name": "Education",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "department": "Computer Science",
+  "courses": [
+    {
+      "university": "Western Michigan University",
+      "universitySlug": "western-michigan",
+      "universityCity": "Kalamazoo, MI",
+      "universityWeb": "https://wmich.edu",
+      "department": "Computer Science",
+      "departmentSlug": "computer-science",
+      "courseCode": "CS-1110",
+      "courseTitle": "Intro to Computer Programming",
+      "section": "",
+      "catalogNumber": "CS-1110",
+      "term": "Summer 2026",
+      "sessionName": "Session I",
+      "instructionStart": "May 4, 2026",
+      "instructionEnd": "June 26, 2026",
+      "addDropDeadline": "May 8, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "Online",
+      "meetingTime": "Asynchronous",
+      "location": "See registrar",
+      "format": "Online",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "Introduction to programming using Python. Problem solving, algorithms, data types, control structures, functions, and files.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://wmich.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "May 13, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "May 22, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "May 31, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "June 9, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "June 18, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "June 27, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "July 6, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "July 15, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Western Michigan University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Western Michigan University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "May 4 – May 8, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "May 11 – May 15, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "May 18 – May 22, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "May 25 – May 29, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jun 1 – Jun 5, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jun 8 – Jun 12, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jun 15 – Jun 19, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jun 22 – Jun 26, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "CS-1110 Intro to Computer Programming — WMU Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Intro to Computer Programming at Western Michigan University",
+      "seoDescription": "Expert assignment help for Intro to Computer Programming (CS-1110) at Western Michigan University. Summer 2026: May 4, 2026 – June 26, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "CS-1110 assignment help",
+        "Intro to Computer Programming homework help",
+        "WMU Computer Science assignment help",
+        "WMU summer 2026 computer science",
+        "CS-1110 WMU summer 2026",
+        "Intro to Computer Programming exam help",
+        "Intro to Computer Programming project help",
+        "Western Michigan University assignment writing service",
+        "Computer Science assignment help USA",
+        "Intro to Computer Programming online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/western-michigan/computer-science/cs-1110",
+      "scrapedAt": "2026-06-18T22:04:52.185Z",
+      "dataSource": "https://wmich.edu/registrar/",
+      "verified": true
+    },
+    {
+      "university": "Western Michigan University",
+      "universitySlug": "western-michigan",
+      "universityCity": "Kalamazoo, MI",
+      "universityWeb": "https://wmich.edu",
+      "department": "Computer Science",
+      "departmentSlug": "computer-science",
+      "courseCode": "CS-2230",
+      "courseTitle": "Data Structures & Algorithm Analysis I",
+      "section": "",
+      "catalogNumber": "CS-2230",
+      "term": "Summer 2026",
+      "sessionName": "Session II",
+      "instructionStart": "June 29, 2026",
+      "instructionEnd": "August 14, 2026",
+      "addDropDeadline": "May 8, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "Online",
+      "meetingTime": "Asynchronous",
+      "location": "See registrar",
+      "format": "Online",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "Abstract data types: lists, stacks, queues, trees, graphs. Algorithm analysis, sorting, searching, and recursion in Java.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://wmich.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "July 8, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "July 17, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 26, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "August 4, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "August 13, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 22, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "August 31, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "September 9, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Western Michigan University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Western Michigan University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 29 – Jul 3, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jul 6 – Jul 10, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 27 – Jul 31, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Aug 3 – Aug 7, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 10 – Aug 14, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 17 – Aug 21, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "CS-2230 Data Structures & Algorithm Analysis I — WMU Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Data Structures & Algorithm Analysis I at Western Michigan University",
+      "seoDescription": "Expert assignment help for Data Structures & Algorithm Analysis I (CS-2230) at Western Michigan University. Summer 2026: June 29, 2026 – August 14, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "CS-2230 assignment help",
+        "Data Structures & Algorithm Analysis I homework help",
+        "WMU Computer Science assignment help",
+        "WMU summer 2026 computer science",
+        "CS-2230 WMU summer 2026",
+        "Data Structures & Algorithm Analysis I exam help",
+        "Data Structures & Algorithm Analysis I project help",
+        "Western Michigan University assignment writing service",
+        "Computer Science assignment help USA",
+        "Data Structures & Algorithm Analysis I online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/western-michigan/computer-science/cs-2230",
+      "scrapedAt": "2026-06-18T22:04:52.187Z",
+      "dataSource": "https://wmich.edu/registrar/",
+      "verified": true
+    }
+  ],
+  "count": 2
+}

@@ -1,0 +1,79 @@
+{
+  "id": "texas-am",
+  "fullName": "Texas A&M University",
+  "shortName": "Texas A&M",
+  "city": "College Station, TX",
+  "web": "https://www.tamu.edu",
+  "dates": {
+    "maymester": {
+      "name": "Maymester",
+      "start": "May 18, 2026",
+      "end": "June 5, 2026"
+    },
+    "session1": {
+      "name": "Session I",
+      "start": "June 8, 2026",
+      "end": "July 9, 2026"
+    },
+    "session2": {
+      "name": "Session II",
+      "start": "July 13, 2026",
+      "end": "August 13, 2026"
+    },
+    "addDrop": "June 9, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Maymester",
+      "start": "May 18, 2026",
+      "end": "June 5, 2026"
+    },
+    {
+      "name": "Session I",
+      "start": "June 8, 2026",
+      "end": "July 9, 2026"
+    },
+    {
+      "name": "Session II",
+      "start": "July 13, 2026",
+      "end": "August 13, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-18T22:04:49.681Z",
+  "totalCourses": 12,
+  "departments": [
+    {
+      "name": "Computer Science",
+      "count": 3
+    },
+    {
+      "name": "Mathematics",
+      "count": 2
+    },
+    {
+      "name": "Engineering",
+      "count": 1
+    },
+    {
+      "name": "Business",
+      "count": 2
+    },
+    {
+      "name": "Agriculture",
+      "count": 1
+    },
+    {
+      "name": "Physics",
+      "count": 1
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    }
+  ]
+}
