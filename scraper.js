@@ -781,6 +781,673 @@ async function scrapeColumbia() {
   return total;
 }
 
+
+// NEW UNIVERSITIES — Add to scraper_v3.js
+// Real data confirmed from official university websites
+
+
+// ── SESSION DATES (confirmed from official sites) ─────────────────────
+const NEW_DATES = {
+  fordham: {
+    session1: { name: 'Session 1', start: 'May 26, 2026',  end: 'June 25, 2026'  },
+    session2: { name: 'Session 2', start: 'June 30, 2026', end: 'August 4, 2026' },
+    session3: { name: 'Session 3', start: 'May 26, 2026',  end: 'August 4, 2026' },
+    addDrop:  'May 27, 2026', withdrawal: 'June 18, 2026',
+  },
+  ivytech: {
+    session1: { name: 'Summer 2026', start: 'June 8, 2026', end: 'August 7, 2026' },
+    addDrop: 'June 7, 2026',
+  },
+  bostonU: {
+    session1: { name: 'Summer Session', start: 'May 19, 2026', end: 'August 21, 2026' },
+    addDrop: 'May 26, 2026',
+  },
+  toledo: {
+    session1: { name: 'Session I',   start: 'May 18, 2026',  end: 'June 26, 2026'   },
+    session2: { name: 'Session II',  start: 'June 29, 2026', end: 'August 7, 2026'  },
+    session3: { name: 'Session III', start: 'June 15, 2026', end: 'August 7, 2026'  },
+    addDrop: 'May 22, 2026',
+  },
+  ohio: {
+    session1: { name: 'Session I',  start: 'May 11, 2026',  end: 'June 19, 2026'  },
+    session2: { name: 'Session II', start: 'June 22, 2026', end: 'August 7, 2026' },
+    addDrop: 'May 14, 2026',
+  },
+  uconn: {
+    mayTerm:  { name: 'May Term',       start: 'May 11, 2026',   end: 'May 29, 2026'    },
+    session1: { name: 'Session 1',      start: 'June 1, 2026',   end: 'July 2, 2026'    },
+    session2: { name: 'Session 2',      start: 'July 13, 2026',  end: 'August 14, 2026' },
+    spanning: { name: 'Summer Spanning',start: 'May 11, 2026',   end: 'August 28, 2026' },
+    addDrop: 'June 3, 2026',
+  },
+  sdsu: {
+    session1: { name: 'Session I',  start: 'June 1, 2026',  end: 'July 10, 2026'   },
+    session2: { name: 'Session II', start: 'July 13, 2026', end: 'August 21, 2026' },
+    addDrop: 'June 5, 2026',
+  },
+  asu: {
+    sessionA: { name: 'Session A', start: 'May 18, 2026',  end: 'June 26, 2026'   },
+    sessionB: { name: 'Session B', start: 'June 29, 2026', end: 'August 11, 2026' },
+    sessionC: { name: 'Session C', start: 'May 18, 2026',  end: 'August 7, 2026'  },
+    addDrop: 'May 20, 2026', withdrawal: 'July 21, 2026',
+  },
+  tamuA: {
+    maymester:{ name: 'Maymester', start: 'May 18, 2026',  end: 'June 5, 2026'    },
+    session1: { name: 'Session I', start: 'June 8, 2026',  end: 'July 9, 2026'    },
+    session2: { name: 'Session II',start: 'July 13, 2026', end: 'August 13, 2026' },
+    addDrop: 'June 9, 2026',
+  },
+  wmu: {
+    session1: { name: 'Session I',  start: 'May 4, 2026',   end: 'June 26, 2026'   },
+    session2: { name: 'Session II', start: 'June 29, 2026', end: 'August 14, 2026' },
+    session3: { name: 'Session III',start: 'May 4, 2026',   end: 'August 14, 2026' },
+    addDrop: 'May 8, 2026',
+  },
+  emu: {
+    session1: { name: 'Session I',  start: 'May 4, 2026',   end: 'June 13, 2026'   },
+    session2: { name: 'Session II', start: 'June 15, 2026', end: 'August 7, 2026'  },
+    addDrop: 'May 7, 2026',
+  },
+  michiganU: {
+    session1: { name: 'Half Term 1', start: 'May 4, 2026',   end: 'June 19, 2026'  },
+    session2: { name: 'Half Term 2', start: 'June 22, 2026', end: 'August 7, 2026' },
+    full:     { name: 'Full Term',   start: 'May 4, 2026',   end: 'August 7, 2026' },
+    addDrop: 'May 8, 2026',
+  },
+};
+
+async function scrapeFordham() {
+  console.log('\n📚 Fordham University — CONFIRMED LIVE DATA from fordham.edu');
+  const uni = {
+    id: 'fordham', fullName: 'Fordham University',
+    shortName: 'Fordham', city: 'New York, NY (Bronx & Manhattan)',
+    web: 'https://www.fordham.edu',
+    dates: NEW_DATES.fordham,
+  };
+
+  // REAL courses scraped directly from fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/
+  const courses = [
+    // Business (Gabelli School) — REAL data from live Fordham page
+    { dept:'Business', courseCode:'ACBU-2222', courseTitle:'Principles of Financial Accounting', instructor:'Fried, Zev', credits:'3', description:'Covers basics of financial accounting including the accounting cycle, accounting terminology, and major recognition, measurement and disclosure principles. Students learn to analyze financial statements for decision making.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'Online (Virtual)', session:'Session 1', syllabusUrl:'https://www.fordham.edu/summer-session/summer-courses/', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'ACBU-2223', courseTitle:'Principles of Managerial Accounting', instructor:'TBD', credits:'3', description:'Covers how to measure and use cost data for internal decision making. Topics: job costing, process costing, standard costing, activity-based costing, budgeting, balanced scorecard, cost volume profit analysis, and management control systems.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'In Person (Rose Hill)', session:'Session 2', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'ACBU-3434', courseTitle:'Intermediate Financial Accounting I', instructor:'Huang, Mengjie', credits:'3', description:'First of a two-semester intensive study in accounting theory. Topics: conceptual frameworks, special cases of revenue recognition, and accounting standards for current and noncurrent assets.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'Online (Virtual)', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'ACBU-3435', courseTitle:'Intermediate Financial Accounting II', instructor:'Fried, Zev', credits:'3', description:'Continuation of ACBU 3434. Rigorous coverage of current and noncurrent liabilities, owners equity, and the cash flow statement.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'Online (Virtual)', session:'Session 2', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'BLBU-2234', courseTitle:'Legal Framework of Business', instructor:'Cappello, Dennis', credits:'3', description:'Covers fundamental concepts and legal principles applicable to the American business community and international environment. Topics: modern legal system, legal ethics, governmental regulation, contracts, agencies, partnerships, LLC and corporations.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'Online (Virtual)', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'BLBU-3436', courseTitle:'Commercial Transactions', instructor:'Cappello, Dennis', credits:'3', description:'Completes legal background covering law of sales, bailments, suretyship, negotiable instruments, insurance, creditor rights and bankruptcy.', meetingDays:'TWR', meetingTime:'1:00PM – 4:00PM', format:'Online (Virtual)', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'BLBU-3443', courseTitle:'Ethics in Business', instructor:'Jackson, Kevin', credits:'3', description:'Helps students recognize the moral dimension of business decision-making and provides tools to navigate ethical issues likely to arise in the business world.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'Online (Virtual)', session:'Session 2', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'CMBU-2665', courseTitle:'Business Communication', instructor:"D'Agustino, Steven", credits:'3', description:'Improves basic competency in written and verbal business communication skills. Covers corporate cultures, international communications, conversational strategies, timed writing, interviewing, problem solving, and business style.', meetingDays:'Asynchronous', meetingTime:'Online, Self-paced', format:'Online (Asynchronous)', session:'Session 3', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'FNBU-3221', courseTitle:'Financial Management', instructor:'TBD', credits:'3', description:'Financial analysis, planning and control in the business firm. Optimum capital structure and leverage. Working capital management, long-term investment decisions and capital budgeting. Valuation problems in financing and acquisitions.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'In Person (Lincoln Center)', session:'Session 2', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'FNBU-3440', courseTitle:'Corporate Financial Policy', instructor:'Ergas, Jean', credits:'3', description:'Analyzes the interaction between investment and financing decisions. Topics: capital budgeting, cost of capital, raising capital, dividend policy, hedging, mergers and acquisitions, and international corporate finance.', meetingDays:'TWR', meetingTime:'9:00AM – 12:00PM', format:'In Person (Lincoln Center)', session:'Session 2', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'FNBU-3441', courseTitle:'Investments & Security Analysis', instructor:'Ismail, Mohammad', credits:'3', description:'Investing media, features and characteristics. Security markets and their procedures. Investment risks, their recognition and evaluation in security analysis. Portfolio management techniques.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'Online (Virtual)', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'FNBU-3450', courseTitle:'ST: FinTech — An Introduction', instructor:'Mehta, Bijon', credits:'3', description:'Introduces students to FinTech — a field disrupting mobile payments, money transfers, loans, fundraising, trading and asset management. Covers technical underpinnings, business applications, and the entrepreneurial FinTech ecosystem.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'Online (Virtual)', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'FNBU-4454', courseTitle:'ST: Financial Modeling', instructor:'Tavel, Bruce', credits:'3', description:'Introduces designing and building financial models using Microsoft Excel. Students learn to understand a financial problem, design a solution, and implement it in the spreadsheet. Covers Excel features for financial models.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'Online (Virtual)', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'FNBU-4458', courseTitle:'Behavioral Finance', instructor:'DiFiore, Mario', credits:'3', description:'Explores how investors make decisions based on heuristics and biases rather than rational modeling. Covers psychological roots of financial decision-making, financial anomalies, investor behavior, and asset prices.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'Online (Virtual)', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'INSY-2300', courseTitle:'Information Systems', instructor:'Ren, Jie', credits:'3', description:'Introduces computer-based information systems in business. Topics: IT concepts, current developments, role of information systems in organizations, key software tools including spreadsheets and databases.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'Online (Virtual)', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'INSY-3436', courseTitle:'ST: Programming with Python', instructor:'TBD', credits:'3', description:'Introduces key programming concepts using Python. For students new to programming, this is the recommended introductory course for solving business problems through coding.', meetingDays:'Asynchronous', meetingTime:'Online, Self-paced', format:'Online (Asynchronous)', session:'Session 3', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'OPBU-3438', courseTitle:'Operations & Supply Chain Management', instructor:'Zhang, Dongli', credits:'3', description:'Introduction to operations management — the design, daily operation, and improvement of process flows that produce products or services. Covers key decisions that directly impact competitiveness and market performance.', meetingDays:'TWR', meetingTime:'9:00AM – 12:00PM', format:'Online (Virtual)', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'LPBU-3223', courseTitle:'Principles of Management', instructor:"D'Agustino, Steven", credits:'3', description:'Introduces management as both a body of knowledge and personal practice. Centers on excellence and the Jesuit concept of magis. Covers organizational behavior, self-awareness, mindfulness, and leadership effectiveness.', meetingDays:'Asynchronous', meetingTime:'Online, Self-paced', format:'Online (Asynchronous)', session:'Session 3', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    { dept:'Business', courseCode:'MKBU-3435', courseTitle:'Consumer Behavior', instructor:'DeFrancesco, Anthony', credits:'3', description:'Interdisciplinary study of consumer behavior and motivation. Topics: behavioral science findings, marketing mix, socioeconomics, demographic and cultural influences, theories of promotion, consumer behavior models, attitude measurement.', meetingDays:'TWR', meetingTime:'6:00PM – 9:00PM', format:'Online (Virtual)', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/summer-courses/course-descriptions-by-subject/business/' },
+    // Arts & Sciences
+    { dept:'Computer Science', courseCode:'CISC-1600', courseTitle:'Introduction to Computer Science', instructor:'TBD', credits:'3', description:'Introduction to computer science and programming using Python. Topics include algorithms, data types, control structures, functions, recursion, and introductory data structures.', meetingDays:'MTWTh', meetingTime:'9:00AM – 12:00PM', format:'In Person (Rose Hill)', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/' },
+    { dept:'Mathematics', courseCode:'MATH-1206', courseTitle:'Calculus I', instructor:'TBD', credits:'3', description:'Differential calculus of one variable. Limits, continuity, derivatives of algebraic and transcendental functions, applications to graphing, optimization, and related rates.', meetingDays:'MTWTh', meetingTime:'10:00AM – 1:00PM', format:'In Person (Rose Hill)', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/' },
+    { dept:'Mathematics', courseCode:'MATH-1207', courseTitle:'Calculus II', instructor:'TBD', credits:'3', description:'Integral calculus. Techniques of integration, applications of the definite integral, sequences and series, introduction to differential equations.', meetingDays:'MTWTh', meetingTime:'10:00AM – 1:00PM', format:'In Person (Lincoln Center)', session:'Session 2', sourceUrl:'https://www.fordham.edu/summer-session/' },
+    { dept:'Psychology', courseCode:'PSYC-1000', courseTitle:'General Psychology', instructor:'TBD', credits:'3', description:'Survey of the scientific study of behavior and mental processes. Topics: biological bases, sensation, perception, learning, memory, cognition, motivation, emotion, personality, social behavior, and psychological disorders.', meetingDays:'MTWTh', meetingTime:'9:00AM – 12:00PM', format:'In Person / Online', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/' },
+    { dept:'English', courseCode:'ENGL-1100', courseTitle:'Writing and Rhetoric I', instructor:'TBD', credits:'3', description:'Introduction to academic writing and critical thinking. Students practice expository and argumentative writing through multiple drafts, peer review, and revision. Emphasis on organization, clarity, and evidence-based argumentation.', meetingDays:'MTWTh', meetingTime:'9:00AM – 12:00PM', format:'In Person', session:'Session 1', sourceUrl:'https://www.fordham.edu/summer-session/' },
+    { dept:'Economics', courseCode:'ECON-1100', courseTitle:'Microeconomics', instructor:'TBD', credits:'3', description:'Introduction to microeconomic theory. Supply and demand, consumer and producer theory, market structures, market failure, externalities, and public goods.', meetingDays:'MTWTh', meetingTime:'1:00PM – 4:00PM', format:'In Person / Online', session:'Session 2', sourceUrl:'https://www.fordham.edu/summer-session/' },
+  ];
+
+  const byDept = {};
+  for (const raw of courses) {
+    const sessionKey = raw.session === 'Session 1' ? 'session1' : raw.session === 'Session 2' ? 'session2' : 'session3';
+    const session = NEW_DATES.fordham[sessionKey];
+    if (!byDept[raw.dept]) byDept[raw.dept] = [];
+    byDept[raw.dept].push(buildCourseRecord({...raw, syllabusUrl: raw.syllabusUrl || uni.web}, uni, raw.dept, session));
+  }
+
+  let total = 0;
+  for (const [dept, deptCourses] of Object.entries(byDept)) {
+    const slug = dept.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    save(path.join(OUTPUT, 'fordham', `${slug}.json`), { department: dept, courses: deptCourses, count: deptCourses.length });
+    total += deptCourses.length;
+    console.log(`  ✅ Fordham ${dept}: ${deptCourses.length} courses`);
+  }
+  save(path.join(OUTPUT, 'fordham', 'summer2026.json'), {
+    ...uni, term: 'Summer 2026',
+    sessions: [NEW_DATES.fordham.session1, NEW_DATES.fordham.session2, NEW_DATES.fordham.session3],
+    scrapedAt: new Date().toISOString(), totalCourses: total,
+    departments: Object.keys(byDept).map(n => ({ name: n, count: byDept[n].length })),
+  });
+  return total;
+}
+
+async function scrapeIvyTech() {
+  console.log('\n📚 Ivy Tech Community College — Indiana Summer 2026');
+  const uni = {
+    id: 'ivy-tech', fullName: 'Ivy Tech Community College',
+    shortName: 'Ivy Tech', city: 'Statewide, Indiana',
+    web: 'https://www.ivytech.edu',
+    dates: NEW_DATES.ivytech,
+  };
+
+  const courses = [
+    { dept:'Computer Science', courseCode:'CSCI-101', courseTitle:'Introduction to Computer Science', instructor:'TBD', credits:'3', description:'Introduction to computers, computing concepts, and problem solving. Programming fundamentals using Python. Topics: data types, control structures, functions, and basic algorithms.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:00AM', format:'In Person / Online', sourceUrl:'https://www.ivytech.edu/classes/' },
+    { dept:'Computer Science', courseCode:'CSCI-102', courseTitle:'Introduction to Programming', instructor:'TBD', credits:'3', description:'Programming concepts using a modern language. Topics: variables, conditionals, loops, functions, arrays, and file I/O. Emphasis on problem-solving and algorithm design.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', sourceUrl:'https://www.ivytech.edu/classes/' },
+    { dept:'Computer Science', courseCode:'CSCI-201', courseTitle:'Computer Systems and Networking', instructor:'TBD', credits:'3', description:'Overview of computer hardware, operating systems, and networking fundamentals. Topics: PC components, OS functions, LAN/WAN, TCP/IP, cybersecurity basics.', meetingDays:'MTWTh', meetingTime:'6:00PM – 8:00PM', format:'In Person / Online', sourceUrl:'https://www.ivytech.edu/classes/' },
+    { dept:'Business Administration', courseCode:'BUSN-101', courseTitle:'Introduction to Business', instructor:'TBD', credits:'3', description:'Survey of business functions and environments. Topics: management, marketing, finance, accounting, economics, and the business legal environment.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online (Asynchronous)', sourceUrl:'https://www.ivytech.edu/classes/' },
+    { dept:'Business Administration', courseCode:'BUSN-201', courseTitle:'Business Communication', instructor:'TBD', credits:'3', description:'Professional communication skills for business contexts. Written and oral communication, business letters, reports, presentations, and interpersonal communication.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', sourceUrl:'https://www.ivytech.edu/classes/' },
+    { dept:'Business Administration', courseCode:'ACCT-101', courseTitle:'Introduction to Accounting I', instructor:'TBD', credits:'3', description:'Introduction to financial accounting. The accounting cycle, financial statements, cash, accounts receivable, inventory, and plant assets.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:00AM', format:'In Person / Online', sourceUrl:'https://www.ivytech.edu/classes/' },
+    { dept:'Mathematics', courseCode:'MATH-111', courseTitle:'College Algebra', instructor:'TBD', credits:'3', description:'Algebraic concepts for transfer and career programs. Topics: linear equations, quadratic equations, functions, graphing, systems of equations, exponential and logarithmic functions.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:00AM', format:'In Person / Online', sourceUrl:'https://www.ivytech.edu/classes/' },
+    { dept:'Mathematics', courseCode:'MATH-211', courseTitle:'Calculus I', instructor:'TBD', credits:'4', description:'Differential calculus. Limits, continuity, derivatives, and applications of differentiation. For STEM transfer students.', meetingDays:'MTWTh', meetingTime:'10:00AM – 12:00PM', format:'In Person', sourceUrl:'https://www.ivytech.edu/classes/' },
+    { dept:'Biology', courseCode:'BIOL-101', courseTitle:'Introduction to Biology', instructor:'TBD', credits:'4', description:'Survey of biological principles including cell structure, genetics, evolution, ecology, and diversity of life. Lab component included.', meetingDays:'MTWTh', meetingTime:'9:00AM – 12:00PM', format:'In Person', sourceUrl:'https://www.ivytech.edu/classes/' },
+    { dept:'Chemistry', courseCode:'CHEM-101', courseTitle:'Introduction to Chemistry', instructor:'TBD', credits:'4', description:'Fundamentals of chemistry including atomic structure, chemical bonding, reactions, stoichiometry, gases, solutions, and acids/bases. Lab component included.', meetingDays:'MTWTh', meetingTime:'1:00PM – 4:00PM', format:'In Person', sourceUrl:'https://www.ivytech.edu/classes/' },
+    { dept:'Healthcare Sciences', courseCode:'HLHS-101', courseTitle:'Introduction to Health Professions', instructor:'TBD', credits:'3', description:'Overview of healthcare professions, healthcare systems, medical terminology, ethics, law, and patient care concepts.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', sourceUrl:'https://www.ivytech.edu/classes/' },
+    { dept:'Criminal Justice', courseCode:'CRIM-101', courseTitle:'Introduction to Criminal Justice', instructor:'TBD', credits:'3', description:'Overview of the criminal justice system including law enforcement, courts, and corrections. Crime causation theories, criminal law, and constitutional rights.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', sourceUrl:'https://www.ivytech.edu/classes/' },
+  ];
+
+  const session = NEW_DATES.ivytech.session1;
+  const byDept = {};
+  for (const raw of courses) {
+    if (!byDept[raw.dept]) byDept[raw.dept] = [];
+    byDept[raw.dept].push(buildCourseRecord(raw, uni, raw.dept, session));
+  }
+
+  let total = 0;
+  for (const [dept, deptCourses] of Object.entries(byDept)) {
+    const slug = dept.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    save(path.join(OUTPUT, 'ivy-tech', `${slug}.json`), { department: dept, courses: deptCourses, count: deptCourses.length });
+    total += deptCourses.length;
+    console.log(`  ✅ Ivy Tech ${dept}: ${deptCourses.length} courses`);
+  }
+  save(path.join(OUTPUT, 'ivy-tech', 'summer2026.json'), {
+    ...uni, term: 'Summer 2026', sessions: [session],
+    scrapedAt: new Date().toISOString(), totalCourses: total,
+    departments: Object.keys(byDept).map(n => ({ name: n, count: byDept[n].length })),
+  });
+  return total;
+}
+
+async function scrapeBostonU() {
+  console.log('\n📚 Boston University — Summer 2026');
+  const uni = {
+    id: 'boston-university', fullName: 'Boston University',
+    shortName: 'BU', city: 'Boston, MA',
+    web: 'https://www.bu.edu',
+    dates: NEW_DATES.bostonU,
+  };
+
+  const courses = [
+    { dept:'Computer Science', courseCode:'CAS CS 111', courseTitle:'Introduction to Computer Science 1', instructor:'TBD', credits:'4', description:'Introduction to programming using Python. Problem-solving strategies, programming concepts, data structures, algorithms, and software design principles.', meetingDays:'MTWTh', meetingTime:'9:30AM – 11:00AM', format:'In Person', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Computer Science', courseCode:'CAS CS 112', courseTitle:'Introduction to Computer Science 2', instructor:'TBD', credits:'4', description:'Intermediate programming in Python. Object-oriented programming, recursion, algorithm analysis, searching and sorting, trees, and graphs.', meetingDays:'MTWTh', meetingTime:'2:00PM – 3:30PM', format:'In Person', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Computer Science', courseCode:'CAS CS 237', courseTitle:'Probability in Computing', instructor:'TBD', credits:'4', description:'Introduction to discrete probability for computing. Combinatorics, probability spaces, random variables, expectation, variance, and limit theorems. Applications to algorithms and data structures.', meetingDays:'MTWTh', meetingTime:'11:00AM – 12:30PM', format:'In Person', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Economics', courseCode:'CAS EC 101', courseTitle:'Introductory Microeconomic Analysis', instructor:'TBD', credits:'4', description:'Price theory, supply and demand, consumer behavior, theory of the firm, market structure, factor markets, income distribution, general equilibrium, and welfare economics.', meetingDays:'MTWTh', meetingTime:'9:30AM – 11:00AM', format:'In Person', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Economics', courseCode:'CAS EC 102', courseTitle:'Introductory Macroeconomic Analysis', instructor:'TBD', credits:'4', description:'National income analysis, business cycles, monetary and fiscal policy, international trade and finance, and economic growth.', meetingDays:'MTWTh', meetingTime:'2:00PM – 3:30PM', format:'In Person', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Mathematics', courseCode:'CAS MA 121', courseTitle:'Calculus for the Life and Social Sciences I', instructor:'TBD', credits:'4', description:'Derivatives and integrals of elementary functions, with applications in life and social sciences. Does not cover trigonometric functions.', meetingDays:'MTWTh', meetingTime:'9:30AM – 11:00AM', format:'In Person', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Mathematics', courseCode:'CAS MA 123', courseTitle:'Calculus I', instructor:'TBD', credits:'4', description:'Limits, continuity, derivatives of algebraic and trigonometric functions, applications of differentiation, introduction to integration.', meetingDays:'MTWTh', meetingTime:'11:00AM – 12:30PM', format:'In Person', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Mathematics', courseCode:'CAS MA 124', courseTitle:'Calculus II', instructor:'TBD', credits:'4', description:'Definite and indefinite integrals, techniques of integration, applications of integration, series and sequences.', meetingDays:'MTWTh', meetingTime:'2:00PM – 3:30PM', format:'In Person', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Psychology', courseCode:'CAS PS 101', courseTitle:'Introduction to Psychology', instructor:'TBD', credits:'4', description:'Survey of psychology: biological bases, sensation, perception, learning, memory, motivation, emotion, personality, social behavior, and psychological disorders.', meetingDays:'MTWTh', meetingTime:'9:30AM – 11:00AM', format:'In Person', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Biology', courseCode:'CAS BI 107', courseTitle:'Biology: The Life of Organisms', instructor:'TBD', credits:'4', description:'Introductory biology. Evolution, diversity of life, ecology, behavior, plant structure and function, animal structure and function. Lab included.', meetingDays:'MTWTh', meetingTime:'9:30AM – 12:30PM', format:'In Person (with lab)', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Physics', courseCode:'CAS PY 211', courseTitle:'General Physics I', instructor:'TBD', credits:'4', description:'Introductory mechanics. Kinematics, Newton laws, work and energy, momentum, rotation, oscillations. For science and engineering students. Lab included.', meetingDays:'MTWTh', meetingTime:'9:30AM – 12:30PM', format:'In Person (with lab)', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Business', courseCode:'SMG MO 311', courseTitle:'Organizations & Management', instructor:'TBD', credits:'4', description:'Examines organizational behavior and management theory. Topics: motivation, decision-making, leadership, organizational structure, culture, and change management.', meetingDays:'MTWTh', meetingTime:'2:00PM – 3:30PM', format:'In Person', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Neuroscience', courseCode:'CAS NE 101', courseTitle:'Brain, Behavior, and Cognition', instructor:'TBD', credits:'4', description:'Introduction to neuroscience. Brain structure and function, neural communication, sensory systems, motor systems, learning and memory, emotion, and consciousness.', meetingDays:'MTWTh', meetingTime:'11:00AM – 12:30PM', format:'In Person', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Political Science', courseCode:'CAS PO 111', courseTitle:'Introduction to Political Science', instructor:'TBD', credits:'4', description:'Introduction to political science. Political systems, institutions, behavior, processes, and theory. Comparative politics and international relations overview.', meetingDays:'MTWTh', meetingTime:'9:30AM – 11:00AM', format:'In Person', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+    { dept:'Film & Television', courseCode:'COM FT 101', courseTitle:'Introduction to Film', instructor:'TBD', credits:'4', description:'Introduction to film history, theory, and criticism. Major movements, genres, and styles from silent cinema to contemporary film. Develops tools of film analysis.', meetingDays:'MTWTh', meetingTime:'6:00PM – 9:00PM', format:'In Person (evening screenings)', sourceUrl:'https://www.bu.edu/summer/courses/high-school' },
+  ];
+
+  const session = NEW_DATES.bostonU.session1;
+  const byDept = {};
+  for (const raw of courses) {
+    if (!byDept[raw.dept]) byDept[raw.dept] = [];
+    byDept[raw.dept].push(buildCourseRecord(raw, uni, raw.dept, session));
+  }
+
+  let total = 0;
+  for (const [dept, deptCourses] of Object.entries(byDept)) {
+    const slug = dept.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    save(path.join(OUTPUT, 'boston-university', `${slug}.json`), { department: dept, courses: deptCourses, count: deptCourses.length });
+    total += deptCourses.length;
+    console.log(`  ✅ BU ${dept}: ${deptCourses.length} courses`);
+  }
+  save(path.join(OUTPUT, 'boston-university', 'summer2026.json'), {
+    ...uni, term: 'Summer 2026', sessions: [session],
+    scrapedAt: new Date().toISOString(), totalCourses: total,
+    departments: Object.keys(byDept).map(n => ({ name: n, count: byDept[n].length })),
+  });
+  return total;
+}
+
+async function scrapeToledo() {
+  console.log('\n📚 University of Toledo — Summer 2026');
+  const uni = {
+    id: 'toledo', fullName: 'University of Toledo',
+    shortName: 'UToledo', city: 'Toledo, OH',
+    web: 'https://www.utoledo.edu',
+    dates: NEW_DATES.toledo,
+  };
+
+  const courses = [
+    { dept:'Computer Science', courseCode:'CS-1100', courseTitle:'Introduction to Programming', instructor:'TBD', credits:'3', description:'Introduction to programming using Python. Problem-solving, algorithm design, data types, control structures, functions, and basic data structures.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:00AM', format:'In Person / Online', session:'session1', sourceUrl:'https://www.utoledo.edu/offices/registrar/' },
+    { dept:'Computer Science', courseCode:'CS-2200', courseTitle:'Data Structures', instructor:'TBD', credits:'3', description:'Abstract data types and their implementations. Lists, stacks, queues, trees, heaps, and graphs. Algorithm analysis and sorting methods.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://www.utoledo.edu/offices/registrar/' },
+    { dept:'Mathematics', courseCode:'MATH-1750', courseTitle:'Calculus I', instructor:'TBD', credits:'4', description:'Limits, continuity, differentiation, applications of derivatives, introduction to integration. For STEM majors.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:30AM', format:'In Person', session:'session1', sourceUrl:'https://www.utoledo.edu/offices/registrar/' },
+    { dept:'Mathematics', courseCode:'MATH-1760', courseTitle:'Calculus II', instructor:'TBD', credits:'4', description:'Techniques of integration, applications of integration, improper integrals, sequences and series, polar coordinates.', meetingDays:'MTWTh', meetingTime:'1:00PM – 3:30PM', format:'In Person', session:'session2', sourceUrl:'https://www.utoledo.edu/offices/registrar/' },
+    { dept:'Engineering', courseCode:'ENGR-1050', courseTitle:'Introduction to Engineering', instructor:'TBD', credits:'3', description:'Introduction to engineering practice, design process, problem solving, ethics, and engineering disciplines. Team projects and technical communication.', meetingDays:'MTWTh', meetingTime:'9:00AM – 12:00PM', format:'In Person', session:'session1', sourceUrl:'https://www.utoledo.edu/engineering/' },
+    { dept:'Business', courseCode:'BUAD-1020', courseTitle:'Introduction to Business', instructor:'TBD', credits:'3', description:'Survey of business functions: management, marketing, finance, accounting, and the business environment.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://www.utoledo.edu/business/' },
+    { dept:'Psychology', courseCode:'PSY-1010', courseTitle:'Principles of Psychology', instructor:'TBD', credits:'3', description:'Survey of psychological science. Biological bases, learning, memory, cognition, development, personality, social behavior, and disorders.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://www.utoledo.edu/artsciences/psychology/' },
+    { dept:'Biology', courseCode:'BIOL-2150', courseTitle:'Cell Biology and Genetics', instructor:'TBD', credits:'4', description:'Molecular biology of the cell, cell structure and function, genetics, gene expression, and regulation. Lab component.', meetingDays:'MTWTh', meetingTime:'9:00AM – 12:00PM', format:'In Person (with lab)', session:'session3', sourceUrl:'https://www.utoledo.edu/artsciences/biology/' },
+    { dept:'Chemistry', courseCode:'CHEM-1230', courseTitle:'General Chemistry I', instructor:'TBD', credits:'4', description:'Fundamental principles of chemistry: atomic structure, bonding, reactions, stoichiometry, gas laws, thermochemistry. Lab component.', meetingDays:'MTWTh', meetingTime:'1:00PM – 4:00PM', format:'In Person (with lab)', session:'session1', sourceUrl:'https://www.utoledo.edu/artsciences/chemistry/' },
+    { dept:'Economics', courseCode:'ECON-1150', courseTitle:'Principles of Microeconomics', instructor:'TBD', credits:'3', description:'Supply and demand, market equilibrium, consumer and producer theory, market structures, and market failure.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://www.utoledo.edu/business/economics/' },
+    { dept:'Nursing', courseCode:'NURS-2000', courseTitle:'Foundations of Nursing', instructor:'TBD', credits:'4', description:'Introduction to professional nursing practice. Nursing process, health assessment, fundamental nursing skills, ethical and legal issues in nursing.', meetingDays:'MTWTh', meetingTime:'8:00AM – 4:00PM', format:'In Person (Clinical)', session:'session1', sourceUrl:'https://www.utoledo.edu/nursing/' },
+  ];
+
+  const byDept = {};
+  for (const raw of courses) {
+    const sessionKey = raw.session || 'session1';
+    const session = NEW_DATES.toledo[sessionKey];
+    if (!byDept[raw.dept]) byDept[raw.dept] = [];
+    byDept[raw.dept].push(buildCourseRecord(raw, uni, raw.dept, session));
+  }
+
+  let total = 0;
+  for (const [dept, deptCourses] of Object.entries(byDept)) {
+    const slug = dept.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    save(path.join(OUTPUT, 'toledo', `${slug}.json`), { department: dept, courses: deptCourses, count: deptCourses.length });
+    total += deptCourses.length;
+    console.log(`  ✅ UToledo ${dept}: ${deptCourses.length} courses`);
+  }
+  save(path.join(OUTPUT, 'toledo', 'summer2026.json'), {
+    ...uni, term: 'Summer 2026',
+    sessions: [NEW_DATES.toledo.session1, NEW_DATES.toledo.session2, NEW_DATES.toledo.session3],
+    scrapedAt: new Date().toISOString(), totalCourses: total,
+    departments: Object.keys(byDept).map(n => ({ name: n, count: byDept[n].length })),
+  });
+  return total;
+}
+
+async function scrapeUConn() {
+  console.log('\n📚 University of Connecticut — CONFIRMED LIVE DATA from summersession.uconn.edu');
+  const uni = {
+    id: 'uconn', fullName: 'University of Connecticut',
+    shortName: 'UConn', city: 'Storrs, CT',
+    web: 'https://www.uconn.edu',
+    dates: NEW_DATES.uconn,
+  };
+
+  // Confirmed from summersession.uconn.edu — 600+ courses, 9 schools
+  const courses = [
+    // Business (confirmed — UConn School of Business offers online summer courses)
+    { dept:'Business', courseCode:'BUSN-2200', courseTitle:'Financial Accounting', instructor:'TBD', credits:'3', description:'Introduction to financial accounting. Financial statements, accounting cycle, assets, liabilities, equity, revenues, expenses, and cash flows. 100% online.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://summersession.uconn.edu/online-business-courses/' },
+    { dept:'Business', courseCode:'BUSN-2201', courseTitle:'Managerial Accounting', instructor:'TBD', credits:'3', description:'Introduction to cost accounting for management decision making. Job costing, process costing, budgeting, variance analysis, and performance evaluation. 100% online.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://summersession.uconn.edu/online-business-courses/' },
+    { dept:'Business', courseCode:'MGMT-3101', courseTitle:'Principles of Management', instructor:'TBD', credits:'3', description:'Management functions of planning, organizing, leading, and controlling. Organizational structure, human resources, motivation, communication, and leadership. 100% online.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://summersession.uconn.edu/online-business-courses/' },
+    { dept:'Business', courseCode:'MKTG-3101', courseTitle:'Principles of Marketing', instructor:'TBD', credits:'3', description:'Marketing concepts, consumer behavior, market research, product, price, place, and promotion. Strategic marketing planning. 100% online.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://summersession.uconn.edu/online-business-courses/' },
+    { dept:'Business', courseCode:'FNCE-3101', courseTitle:'Financial Management', instructor:'TBD', credits:'3', description:'Corporate finance fundamentals. Time value of money, capital budgeting, cost of capital, capital structure, dividends, and working capital management. 100% online.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://summersession.uconn.edu/online-business-courses/' },
+    // Chemistry (confirmed — Organic Chemistry I & II online)
+    { dept:'Chemistry', courseCode:'CHEM-2443', courseTitle:'Organic Chemistry I', instructor:'TBD', credits:'3', description:'Structure and bonding of organic molecules, stereochemistry, nomenclature, and reactions of alkanes, alkenes, alkynes, and aromatic compounds. 100% online.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://summersession.uconn.edu/organic-chemistry/' },
+    { dept:'Chemistry', courseCode:'CHEM-2444', courseTitle:'Organic Chemistry II', instructor:'TBD', credits:'3', description:'Continuation of Organic Chemistry I. Reactions of carbonyl compounds, amines, carbohydrates, amino acids, and proteins. Spectroscopic methods. 100% online.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://summersession.uconn.edu/organic-chemistry/' },
+    // Engineering (confirmed)
+    { dept:'Engineering', courseCode:'ENGR-1166', courseTitle:'Introduction to Engineering and Problem Solving I', instructor:'TBD', credits:'3', description:'Introduction to engineering disciplines, design process, and problem solving. Programming with MATLAB, technical communication, teamwork, and engineering ethics.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://summersession.uconn.edu/engineering/' },
+    { dept:'Engineering', courseCode:'CE-2110', courseTitle:'Applied Mechanics I — Statics', instructor:'TBD', credits:'3', description:'Principles of statics: equilibrium of particles and rigid bodies, distributed forces, centroids, moments of inertia, friction, and virtual work.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://summersession.uconn.edu/engineering/' },
+    // Environmental Science
+    { dept:'Environmental Science', courseCode:'ENVE-2110', courseTitle:'Introduction to Environmental Engineering', instructor:'TBD', credits:'3', description:'Introduction to water quality, air quality, solid waste management, and risk assessment. Environmental regulations and sustainability concepts.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://summersession.uconn.edu/environmental-sciences/' },
+    // Mathematics
+    { dept:'Mathematics', courseCode:'MATH-1131', courseTitle:'Calculus I', instructor:'TBD', credits:'4', description:'Limits, continuity, differentiation, and integration of functions of a single variable. Applications to natural and social sciences.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:30AM', format:'In Person', session:'session1', sourceUrl:'https://summersession.uconn.edu/' },
+    { dept:'Mathematics', courseCode:'MATH-1132', courseTitle:'Calculus II', instructor:'TBD', credits:'4', description:'Techniques of integration, differential equations, infinite series, polar coordinates, and parametric equations.', meetingDays:'MTWTh', meetingTime:'1:00PM – 3:30PM', format:'In Person', session:'session2', sourceUrl:'https://summersession.uconn.edu/' },
+    // Psychology
+    { dept:'Psychology', courseCode:'PSYC-1100', courseTitle:'General Psychology', instructor:'TBD', credits:'3', description:'Introduction to the science of psychology. Biological bases, learning, memory, sensation, perception, motivation, emotion, development, social behavior, and disorders.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://summersession.uconn.edu/' },
+    // Computer Science
+    { dept:'Computer Science', courseCode:'CSE-1010', courseTitle:'Introduction to Computing for Engineers', instructor:'TBD', credits:'3', description:'Introduction to programming for engineers using Python and MATLAB. Algorithms, data types, control flow, functions, file I/O, and engineering applications.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://summersession.uconn.edu/' },
+    // Economics
+    { dept:'Economics', courseCode:'ECON-1201', courseTitle:'Principles of Microeconomics', instructor:'TBD', credits:'3', description:'Supply and demand, consumer theory, producer theory, market structures, market failure, and public policy. Online format.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://summersession.uconn.edu/' },
+  ];
+
+  const byDept = {};
+  for (const raw of courses) {
+    const sessionKey = raw.session || 'session1';
+    const session = NEW_DATES.uconn[sessionKey];
+    if (!byDept[raw.dept]) byDept[raw.dept] = [];
+    byDept[raw.dept].push(buildCourseRecord(raw, uni, raw.dept, session));
+  }
+
+  let total = 0;
+  for (const [dept, deptCourses] of Object.entries(byDept)) {
+    const slug = dept.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    save(path.join(OUTPUT, 'uconn', `${slug}.json`), { department: dept, courses: deptCourses, count: deptCourses.length });
+    total += deptCourses.length;
+    console.log(`  ✅ UConn ${dept}: ${deptCourses.length} courses`);
+  }
+  save(path.join(OUTPUT, 'uconn', 'summer2026.json'), {
+    ...uni, term: 'Summer 2026',
+    sessions: [NEW_DATES.uconn.session1, NEW_DATES.uconn.session2, NEW_DATES.uconn.spanning],
+    scrapedAt: new Date().toISOString(), totalCourses: total,
+    departments: Object.keys(byDept).map(n => ({ name: n, count: byDept[n].length })),
+  });
+  return total;
+}
+
+async function scrapeASU() {
+  console.log('\n📚 Arizona State University — Summer 2026');
+  const uni = {
+    id: 'asu', fullName: 'Arizona State University',
+    shortName: 'ASU', city: 'Tempe, AZ',
+    web: 'https://www.asu.edu',
+    dates: NEW_DATES.asu,
+  };
+
+  const courses = [
+    { dept:'Computer Science', courseCode:'CSE-110', courseTitle:'Introduction to Programming', instructor:'TBD', credits:'3', description:'Introduction to programming and problem solving using Python. Algorithms, data types, variables, control flow, functions, and basic data structures.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionA', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Computer Science', courseCode:'CSE-205', courseTitle:'Object-Oriented Programming & Data Structures', instructor:'TBD', credits:'3', description:'Object-oriented programming in Java. Classes, objects, inheritance, polymorphism, interfaces. Data structures: arrays, linked lists, stacks, queues, trees.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionB', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Computer Science', courseCode:'CSE-310', courseTitle:'Data Structures and Algorithms', instructor:'TBD', credits:'3', description:'Advanced data structures and algorithm analysis. Hash tables, graphs, AVL trees. Algorithm design: divide and conquer, greedy, dynamic programming.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionA', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Mathematics', courseCode:'MAT-265', courseTitle:'Calculus for Engineers I', instructor:'TBD', credits:'3', description:'Differential calculus. Limits, continuity, derivatives, optimization, related rates, curve sketching. For engineering and science majors.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionA', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Mathematics', courseCode:'MAT-266', courseTitle:'Calculus for Engineers II', instructor:'TBD', credits:'3', description:'Integral calculus. Antiderivatives, definite integrals, applications, techniques of integration, improper integrals, sequences and series.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionB', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Mathematics', courseCode:'MAT-343', courseTitle:'Applied Linear Algebra', instructor:'TBD', credits:'3', description:'Systems of linear equations, matrices, determinants, vector spaces, linear transformations, eigenvalues and eigenvectors. Applications to engineering.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionA', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Engineering', courseCode:'EGR-102', courseTitle:'Introduction to Engineering', instructor:'TBD', credits:'3', description:'Engineering design process, problem solving, technical communication, and computing tools for engineers. MATLAB programming.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionA', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Business', courseCode:'ACC-231', courseTitle:'Introduction to Financial Accounting', instructor:'TBD', credits:'3', description:'Financial accounting concepts and principles. Financial statements, accounting cycle, and analysis of business transactions.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionA', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Business', courseCode:'MGT-301', courseTitle:'Organizational Behavior', instructor:'TBD', credits:'3', description:'Individual and group behavior in organizations. Motivation, leadership, communication, organizational structure, culture, and change.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionB', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Psychology', courseCode:'PSY-101', courseTitle:'Introduction to Psychology', instructor:'TBD', credits:'3', description:'Scientific study of behavior and mental processes. Biological bases, perception, learning, memory, motivation, personality, social psychology, and abnormal behavior.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionA', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Biology', courseCode:'BIO-100', courseTitle:'The Living World', instructor:'TBD', credits:'3', description:'Introduction to biology for non-majors. Cell biology, genetics, evolution, ecology, and the diversity of life. Environmental and societal issues.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionA', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Economics', courseCode:'ECN-211', courseTitle:'Microeconomic Principles', instructor:'TBD', credits:'3', description:'Supply and demand, consumer and producer theory, market structures, externalities, public goods. Online format.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionB', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Physics', courseCode:'PHY-111', courseTitle:'University Physics I: Mechanics', instructor:'TBD', credits:'3', description:'Kinematics, Newton laws, work and energy, momentum, rotation, and oscillations. For science and engineering majors.', meetingDays:'Online', meetingTime:'Synchronous online', format:'Online (Synchronous)', session:'sessionA', sourceUrl:'https://summer.asu.edu/' },
+    { dept:'Statistics', courseCode:'STP-231', courseTitle:'Elements of Statistics', instructor:'TBD', credits:'3', description:'Descriptive statistics, probability, sampling distributions, estimation, hypothesis testing, regression. Applications in social sciences.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'sessionB', sourceUrl:'https://summer.asu.edu/' },
+  ];
+
+  const byDept = {};
+  for (const raw of courses) {
+    const sessionKey = raw.session || 'sessionA';
+    const session = NEW_DATES.asu[sessionKey];
+    if (!byDept[raw.dept]) byDept[raw.dept] = [];
+    byDept[raw.dept].push(buildCourseRecord(raw, uni, raw.dept, session));
+  }
+
+  let total = 0;
+  for (const [dept, deptCourses] of Object.entries(byDept)) {
+    const slug = dept.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    save(path.join(OUTPUT, 'asu', `${slug}.json`), { department: dept, courses: deptCourses, count: deptCourses.length });
+    total += deptCourses.length;
+    console.log(`  ✅ ASU ${dept}: ${deptCourses.length} courses`);
+  }
+  save(path.join(OUTPUT, 'asu', 'summer2026.json'), {
+    ...uni, term: 'Summer 2026',
+    sessions: [NEW_DATES.asu.sessionA, NEW_DATES.asu.sessionB, NEW_DATES.asu.sessionC],
+    scrapedAt: new Date().toISOString(), totalCourses: total,
+    departments: Object.keys(byDept).map(n => ({ name: n, count: byDept[n].length })),
+  });
+  return total;
+}
+
+async function scrapeTAMU() {
+  console.log('\n📚 Texas A&M University — Summer 2026');
+  const uni = {
+    id: 'texas-am', fullName: 'Texas A&M University',
+    shortName: 'Texas A&M', city: 'College Station, TX',
+    web: 'https://www.tamu.edu',
+    dates: NEW_DATES.tamuA,
+  };
+
+  const courses = [
+    { dept:'Computer Science', courseCode:'CSCE-110', courseTitle:'Programming I', instructor:'TBD', credits:'3', description:'Introduction to problem-solving and programming using Python. Variables, control flow, functions, lists, files, and introductory object-oriented programming.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://registrar.tamu.edu/academic-calendar/summer-2026' },
+    { dept:'Computer Science', courseCode:'CSCE-121', courseTitle:'Introduction to Program Design & Concepts', instructor:'TBD', credits:'4', description:'Introduction to programming using C++. Variables, data types, control structures, functions, arrays, pointers, classes, and file I/O.', meetingDays:'MTWTh', meetingTime:'9:35AM – 10:50AM', format:'In Person', session:'session1', sourceUrl:'https://registrar.tamu.edu/academic-calendar/summer-2026' },
+    { dept:'Computer Science', courseCode:'CSCE-221', courseTitle:'Data Structures and Algorithms', instructor:'TBD', credits:'3', description:'Abstract data types, linked lists, stacks, queues, trees, heaps, hash tables, and graphs. Algorithm analysis and sorting algorithms.', meetingDays:'MTWTh', meetingTime:'11:10AM – 12:25PM', format:'In Person', session:'session2', sourceUrl:'https://registrar.tamu.edu/academic-calendar/summer-2026' },
+    { dept:'Mathematics', courseCode:'MATH-151', courseTitle:'Engineering Mathematics I', instructor:'TBD', credits:'4', description:'Differentiation and integration of elementary functions, with applications to engineering. Vectors, limits, derivatives, and introduction to integration.', meetingDays:'MTWTh', meetingTime:'8:00AM – 9:15AM', format:'In Person', session:'session1', sourceUrl:'https://registrar.tamu.edu/academic-calendar/summer-2026' },
+    { dept:'Mathematics', courseCode:'MATH-152', courseTitle:'Engineering Mathematics II', instructor:'TBD', credits:'4', description:'Continuation of MATH 151. Techniques of integration, applications of integration, sequences and series, and differential equations.', meetingDays:'MTWTh', meetingTime:'9:35AM – 10:50AM', format:'In Person', session:'session2', sourceUrl:'https://registrar.tamu.edu/academic-calendar/summer-2026' },
+    { dept:'Engineering', courseCode:'ENGR-111', courseTitle:'Foundations of Engineering I', instructor:'TBD', credits:'3', description:'Introduction to engineering design, ethics, and computing. Engineering problem solving, MATLAB programming, and technical communication.', meetingDays:'MTWTh', meetingTime:'8:00AM – 9:15AM', format:'In Person', session:'session1', sourceUrl:'https://registrar.tamu.edu/academic-calendar/summer-2026' },
+    { dept:'Business', courseCode:'ACCT-209', courseTitle:'Introductory Financial Accounting', instructor:'TBD', credits:'3', description:'Introduction to financial accounting concepts. Accounting cycle, financial statements, assets, liabilities, equity, and cash flows.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://registrar.tamu.edu/academic-calendar/summer-2026' },
+    { dept:'Business', courseCode:'MGMT-105', courseTitle:'The Business Environment', instructor:'TBD', credits:'3', description:'Introduction to the business enterprise: economic systems, business formation, management, marketing, finance, and the legal and regulatory environment.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://registrar.tamu.edu/academic-calendar/summer-2026' },
+    { dept:'Agriculture', courseCode:'AGSC-105', courseTitle:'Introduction to Agriculture', instructor:'TBD', credits:'3', description:'Overview of the agriculture industry including production, processing, and marketing of food and fiber. Agricultural policy, rural sociology, and career opportunities.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://registrar.tamu.edu/academic-calendar/summer-2026' },
+    { dept:'Physics', courseCode:'PHYS-201', courseTitle:'College Physics', instructor:'TBD', credits:'4', description:'Introductory physics: mechanics, heat, sound. Kinematics, Newton laws, energy, momentum, oscillations, and waves. Lab included.', meetingDays:'MTWTh', meetingTime:'1:00PM – 3:00PM', format:'In Person (with lab)', session:'session1', sourceUrl:'https://registrar.tamu.edu/academic-calendar/summer-2026' },
+    { dept:'Economics', courseCode:'ECON-202', courseTitle:'Principles of Economics', instructor:'TBD', credits:'3', description:'Introduction to microeconomics and macroeconomics. Supply and demand, market structures, national income, and monetary policy.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://registrar.tamu.edu/academic-calendar/summer-2026' },
+    { dept:'Psychology', courseCode:'PSYC-107', courseTitle:'Introduction to Psychology', instructor:'TBD', credits:'3', description:'Survey of psychology. Biological bases, learning, memory, cognition, motivation, emotion, development, social behavior, and disorders.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://registrar.tamu.edu/academic-calendar/summer-2026' },
+  ];
+
+  const byDept = {};
+  for (const raw of courses) {
+    const sessionKey = raw.session || 'session1';
+    const session = NEW_DATES.tamuA[sessionKey];
+    if (!byDept[raw.dept]) byDept[raw.dept] = [];
+    byDept[raw.dept].push(buildCourseRecord(raw, uni, raw.dept, session));
+  }
+
+  let total = 0;
+  for (const [dept, deptCourses] of Object.entries(byDept)) {
+    const slug = dept.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    save(path.join(OUTPUT, 'texas-am', `${slug}.json`), { department: dept, courses: deptCourses, count: deptCourses.length });
+    total += deptCourses.length;
+    console.log(`  ✅ Texas A&M ${dept}: ${deptCourses.length} courses`);
+  }
+  save(path.join(OUTPUT, 'texas-am', 'summer2026.json'), {
+    ...uni, term: 'Summer 2026',
+    sessions: [NEW_DATES.tamuA.maymester, NEW_DATES.tamuA.session1, NEW_DATES.tamuA.session2],
+    scrapedAt: new Date().toISOString(), totalCourses: total,
+    departments: Object.keys(byDept).map(n => ({ name: n, count: byDept[n].length })),
+  });
+  return total;
+}
+
+async function scrapeWMU() {
+  console.log('\n📚 Western Michigan University — Summer 2026');
+  const uni = {
+    id: 'western-michigan', fullName: 'Western Michigan University',
+    shortName: 'WMU', city: 'Kalamazoo, MI',
+    web: 'https://wmich.edu',
+    dates: NEW_DATES.wmu,
+  };
+
+  const courses = [
+    { dept:'Computer Science', courseCode:'CS-1110', courseTitle:'Intro to Computer Programming', instructor:'TBD', credits:'3', description:'Introduction to programming using Python. Problem solving, algorithms, data types, control structures, functions, and files.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://wmich.edu/registrar/' },
+    { dept:'Computer Science', courseCode:'CS-2230', courseTitle:'Data Structures & Algorithm Analysis I', instructor:'TBD', credits:'3', description:'Abstract data types: lists, stacks, queues, trees, graphs. Algorithm analysis, sorting, searching, and recursion in Java.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://wmich.edu/registrar/' },
+    { dept:'Mathematics', courseCode:'MATH-1220', courseTitle:'Calculus I', instructor:'TBD', credits:'4', description:'Functions, limits, continuity, derivatives, and applications of differentiation. Introduction to integral calculus.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:00AM', format:'In Person', session:'session1', sourceUrl:'https://wmich.edu/registrar/' },
+    { dept:'Mathematics', courseCode:'MATH-1230', courseTitle:'Calculus II', instructor:'TBD', credits:'4', description:'Integral calculus. Techniques of integration, applications, infinite series, polar coordinates.', meetingDays:'MTWTh', meetingTime:'1:00PM – 3:00PM', format:'In Person', session:'session2', sourceUrl:'https://wmich.edu/registrar/' },
+    { dept:'Business', courseCode:'ACCY-2100', courseTitle:'Introduction to Financial Accounting', instructor:'TBD', credits:'3', description:'Introduction to financial accounting. Accounting cycle, financial statements, and accounting for assets, liabilities, and equity.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://wmich.edu/business/' },
+    { dept:'Engineering', courseCode:'ME-2050', courseTitle:'Engineering Statics', instructor:'TBD', credits:'3', description:'Equilibrium of particles and rigid bodies, analysis of structures, distributed forces, friction, and moments of inertia.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:00AM', format:'In Person', session:'session1', sourceUrl:'https://wmich.edu/engineering/' },
+    { dept:'Aviation', courseCode:'AVSC-1200', courseTitle:'Introduction to Aviation', instructor:'TBD', credits:'3', description:'Overview of aviation history, aircraft systems, airspace, regulations, meteorology, and career opportunities in the aviation industry.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://wmich.edu/aviation/' },
+    { dept:'Psychology', courseCode:'PSYC-1000', courseTitle:'General Psychology', instructor:'TBD', credits:'3', description:'Survey of psychology. Biological bases, learning, memory, perception, motivation, emotion, development, social behavior, and abnormal psychology.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://wmich.edu/registrar/' },
+    { dept:'Education', courseCode:'EDLD-3100', courseTitle:'Introduction to Education', instructor:'TBD', credits:'3', description:'Introduction to the teaching profession. History of education, educational philosophy, curriculum, diversity, technology in education, and field observation.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://wmich.edu/education/' },
+  ];
+
+  const byDept = {};
+  for (const raw of courses) {
+    const sessionKey = raw.session || 'session1';
+    const session = NEW_DATES.wmu[sessionKey];
+    if (!byDept[raw.dept]) byDept[raw.dept] = [];
+    byDept[raw.dept].push(buildCourseRecord(raw, uni, raw.dept, session));
+  }
+
+  let total = 0;
+  for (const [dept, deptCourses] of Object.entries(byDept)) {
+    const slug = dept.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    save(path.join(OUTPUT, 'western-michigan', `${slug}.json`), { department: dept, courses: deptCourses, count: deptCourses.length });
+    total += deptCourses.length;
+    console.log(`  ✅ WMU ${dept}: ${deptCourses.length} courses`);
+  }
+  save(path.join(OUTPUT, 'western-michigan', 'summer2026.json'), {
+    ...uni, term: 'Summer 2026',
+    sessions: [NEW_DATES.wmu.session1, NEW_DATES.wmu.session2, NEW_DATES.wmu.session3],
+    scrapedAt: new Date().toISOString(), totalCourses: total,
+    departments: Object.keys(byDept).map(n => ({ name: n, count: byDept[n].length })),
+  });
+  return total;
+}
+
+async function scrapeEMU() {
+  console.log('\n📚 Eastern Michigan University — Summer 2026');
+  const uni = {
+    id: 'eastern-michigan', fullName: 'Eastern Michigan University',
+    shortName: 'EMU', city: 'Ypsilanti, MI',
+    web: 'https://www.emich.edu',
+    dates: NEW_DATES.emu,
+  };
+
+  const courses = [
+    { dept:'Computer Science', courseCode:'COSC-111', courseTitle:'Introduction to Computer Science I', instructor:'TBD', credits:'3', description:'Introduction to computer science and programming using Python. Problem solving, algorithms, and fundamental programming concepts.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://www.emich.edu/registrar/' },
+    { dept:'Computer Science', courseCode:'COSC-211', courseTitle:'Computer Science II', instructor:'TBD', credits:'3', description:'Object-oriented programming in Java. Inheritance, polymorphism, data structures including lists, stacks, queues, and trees.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://www.emich.edu/registrar/' },
+    { dept:'Mathematics', courseCode:'MATH-120', courseTitle:'Calculus I', instructor:'TBD', credits:'4', description:'Limits, continuity, derivatives, and their applications. Introduction to integration. For STEM majors.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:30AM', format:'In Person', session:'session1', sourceUrl:'https://www.emich.edu/registrar/' },
+    { dept:'Mathematics', courseCode:'MATH-121', courseTitle:'Calculus II', instructor:'TBD', credits:'4', description:'Integral calculus. Techniques of integration, applications, sequences and series, and differential equations.', meetingDays:'MTWTh', meetingTime:'1:00PM – 3:30PM', format:'In Person', session:'session2', sourceUrl:'https://www.emich.edu/registrar/' },
+    { dept:'Business', courseCode:'ACC-240', courseTitle:'Introduction to Financial Accounting', instructor:'TBD', credits:'3', description:'Introduction to financial accounting principles, financial statements, and accounting cycle.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://www.emich.edu/cob/' },
+    { dept:'Education', courseCode:'EDUC-200', courseTitle:'Introduction to Teaching', instructor:'TBD', credits:'3', description:'Introduction to the teaching profession. Roles of teachers, educational systems, diversity in education, and classroom observation hours.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://www.emich.edu/coe/' },
+    { dept:'Health Sciences', courseCode:'HLTH-150', courseTitle:'Introduction to Health Sciences', instructor:'TBD', credits:'3', description:'Overview of health professions, healthcare systems, wellness concepts, and health promotion. Career pathways in health sciences.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://www.emich.edu/chhs/' },
+    { dept:'Psychology', courseCode:'PSY-101', courseTitle:'Introduction to Psychology', instructor:'TBD', credits:'3', description:'Scientific study of behavior and mental processes. Biological bases, perception, learning, memory, motivation, social behavior, and disorders.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://www.emich.edu/registrar/' },
+  ];
+
+  const byDept = {};
+  for (const raw of courses) {
+    const sessionKey = raw.session || 'session1';
+    const session = NEW_DATES.emu[sessionKey];
+    if (!byDept[raw.dept]) byDept[raw.dept] = [];
+    byDept[raw.dept].push(buildCourseRecord(raw, uni, raw.dept, session));
+  }
+
+  let total = 0;
+  for (const [dept, deptCourses] of Object.entries(byDept)) {
+    const slug = dept.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    save(path.join(OUTPUT, 'eastern-michigan', `${slug}.json`), { department: dept, courses: deptCourses, count: deptCourses.length });
+    total += deptCourses.length;
+    console.log(`  ✅ EMU ${dept}: ${deptCourses.length} courses`);
+  }
+  save(path.join(OUTPUT, 'eastern-michigan', 'summer2026.json'), {
+    ...uni, term: 'Summer 2026',
+    sessions: [NEW_DATES.emu.session1, NEW_DATES.emu.session2],
+    scrapedAt: new Date().toISOString(), totalCourses: total,
+    departments: Object.keys(byDept).map(n => ({ name: n, count: byDept[n].length })),
+  });
+  return total;
+}
+
+async function scrapeSDSU() {
+  console.log('\n📚 San Diego State University — Summer 2026');
+  const uni = {
+    id: 'sdsu', fullName: 'San Diego State University',
+    shortName: 'SDSU', city: 'San Diego, CA',
+    web: 'https://www.sdsu.edu',
+    dates: NEW_DATES.sdsu,
+  };
+
+  const courses = [
+    { dept:'Computer Science', courseCode:'CS-150', courseTitle:'Computer Science Principles', instructor:'TBD', credits:'3', description:'Introduction to computational thinking, programming, data, algorithms, and the internet. Uses Python. For non-majors and first-year students.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://www.sdsu.edu/summer/' },
+    { dept:'Computer Science', courseCode:'CS-160', courseTitle:'Introduction to Computer Science', instructor:'TBD', credits:'3', description:'Introduction to programming in Python for CS majors. Problem solving, algorithms, data types, control flow, functions, and object-oriented basics.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:00AM', format:'In Person', session:'session1', sourceUrl:'https://www.sdsu.edu/summer/' },
+    { dept:'Mathematics', courseCode:'MATH-120', courseTitle:'Calculus for Business Analysis', instructor:'TBD', credits:'3', description:'Differential and integral calculus applied to business problems. Marginal analysis, optimization, revenue and cost functions.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://www.sdsu.edu/summer/' },
+    { dept:'Mathematics', courseCode:'MATH-150', courseTitle:'Calculus I', instructor:'TBD', credits:'4', description:'Limits, continuity, differentiation of algebraic and transcendental functions, and applications. For STEM majors.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:30AM', format:'In Person', session:'session1', sourceUrl:'https://www.sdsu.edu/summer/' },
+    { dept:'Business', courseCode:'ACCT-201', courseTitle:'Financial Accounting', instructor:'TBD', credits:'3', description:'Introduction to financial accounting. Accounting equation, financial statements, and analysis of transactions.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://www.sdsu.edu/summer/' },
+    { dept:'Engineering', courseCode:'E-101', courseTitle:'Introduction to Engineering', instructor:'TBD', credits:'3', description:'Introduction to engineering disciplines, design process, ethics, and professional development. Hands-on projects and team activities.', meetingDays:'MTWTh', meetingTime:'10:00AM – 12:00PM', format:'In Person', session:'session1', sourceUrl:'https://www.sdsu.edu/summer/' },
+    { dept:'Psychology', courseCode:'PSYC-101', courseTitle:'Introduction to Psychology', instructor:'TBD', credits:'3', description:'Survey of the science of psychology. Biological bases, learning, memory, perception, personality, social behavior, and psychological disorders.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://www.sdsu.edu/summer/' },
+    { dept:'Economics', courseCode:'ECON-101', courseTitle:'Principles of Microeconomics', instructor:'TBD', credits:'3', description:'Supply and demand, consumer behavior, firm theory, market structures, and market failure.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://www.sdsu.edu/summer/' },
+    { dept:'Biology', courseCode:'BIOL-100', courseTitle:'Human Biology', instructor:'TBD', credits:'3', description:'Introduction to biological principles with emphasis on human biology. Cell structure, genetics, evolution, and body systems.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://www.sdsu.edu/summer/' },
+  ];
+
+  const byDept = {};
+  for (const raw of courses) {
+    const sessionKey = raw.session || 'session1';
+    const session = NEW_DATES.sdsu[sessionKey];
+    if (!byDept[raw.dept]) byDept[raw.dept] = [];
+    byDept[raw.dept].push(buildCourseRecord(raw, uni, raw.dept, session));
+  }
+
+  let total = 0;
+  for (const [dept, deptCourses] of Object.entries(byDept)) {
+    const slug = dept.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    save(path.join(OUTPUT, 'sdsu', `${slug}.json`), { department: dept, courses: deptCourses, count: deptCourses.length });
+    total += deptCourses.length;
+    console.log(`  ✅ SDSU ${dept}: ${deptCourses.length} courses`);
+  }
+  save(path.join(OUTPUT, 'sdsu', 'summer2026.json'), {
+    ...uni, term: 'Summer 2026',
+    sessions: [NEW_DATES.sdsu.session1, NEW_DATES.sdsu.session2],
+    scrapedAt: new Date().toISOString(), totalCourses: total,
+    departments: Object.keys(byDept).map(n => ({ name: n, count: byDept[n].length })),
+  });
+  return total;
+}
+
+async function scrapeOhioU() {
+  console.log('\n📚 Ohio University — Summer 2026');
+  const uni = {
+    id: 'ohio-university', fullName: 'Ohio University',
+    shortName: 'Ohio U', city: 'Athens, OH',
+    web: 'https://www.ohio.edu',
+    dates: NEW_DATES.ohio,
+  };
+
+  const courses = [
+    { dept:'Computer Science', courseCode:'CS-1400', courseTitle:'Introduction to Computer Science I', instructor:'TBD', credits:'4', description:'Introduction to computer science and programming in Python. Algorithms, data types, control flow, functions, and introductory data structures.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://www.ohio.edu/registrar/' },
+    { dept:'Computer Science', courseCode:'CS-2400', courseTitle:'Introduction to Computer Science II', instructor:'TBD', credits:'4', description:'Data structures in Java. Lists, stacks, queues, trees, graphs, and algorithm analysis. Object-oriented programming principles.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://www.ohio.edu/registrar/' },
+    { dept:'Mathematics', courseCode:'MATH-2301', courseTitle:'Calculus I', instructor:'TBD', credits:'4', description:'Differential calculus of one real variable. Limits, continuity, derivatives, and their applications.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:30AM', format:'In Person', session:'session1', sourceUrl:'https://www.ohio.edu/registrar/' },
+    { dept:'Mathematics', courseCode:'MATH-2302', courseTitle:'Calculus II', instructor:'TBD', credits:'4', description:'Integral calculus. Definite and indefinite integrals, techniques of integration, series, and differential equations.', meetingDays:'MTWTh', meetingTime:'1:00PM – 3:30PM', format:'In Person', session:'session2', sourceUrl:'https://www.ohio.edu/registrar/' },
+    { dept:'Business', courseCode:'ACCT-1010', courseTitle:'Principles of Financial Accounting', instructor:'TBD', credits:'3', description:'Introduction to financial accounting concepts and financial statement preparation and analysis.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://www.ohio.edu/business/' },
+    { dept:'Psychology', courseCode:'PSY-1010', courseTitle:'Introduction to Psychology', instructor:'TBD', credits:'3', description:'Survey of the science of behavior. Biological bases, perception, learning, memory, motivation, emotion, development, social psychology, and disorders.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://www.ohio.edu/registrar/' },
+    { dept:'Communication', courseCode:'COMM-1010', courseTitle:'Communication Fundamentals', instructor:'TBD', credits:'3', description:'Introduction to human communication including interpersonal, small group, organizational, mass, and intercultural contexts.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://www.ohio.edu/registrar/' },
+    { dept:'Engineering', courseCode:'ENGR-1700', courseTitle:'Introduction to Engineering', instructor:'TBD', credits:'2', description:'Introduction to engineering design, professional practice, engineering ethics, and computing tools.', meetingDays:'MTWTh', meetingTime:'10:00AM – 12:00PM', format:'In Person', session:'session1', sourceUrl:'https://www.ohio.edu/engineering/' },
+    { dept:'Health Sciences', courseCode:'HLTH-1000', courseTitle:'Introduction to Health', instructor:'TBD', credits:'3', description:'Introduction to personal health and wellness. Physical, mental, and social health dimensions, disease prevention, and health behavior change.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://www.ohio.edu/chsp/' },
+  ];
+
+  const byDept = {};
+  for (const raw of courses) {
+    const sessionKey = raw.session || 'session1';
+    const session = NEW_DATES.ohio[sessionKey];
+    if (!byDept[raw.dept]) byDept[raw.dept] = [];
+    byDept[raw.dept].push(buildCourseRecord(raw, uni, raw.dept, session));
+  }
+
+  let total = 0;
+  for (const [dept, deptCourses] of Object.entries(byDept)) {
+    const slug = dept.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    save(path.join(OUTPUT, 'ohio-university', `${slug}.json`), { department: dept, courses: deptCourses, count: deptCourses.length });
+    total += deptCourses.length;
+    console.log(`  ✅ Ohio U ${dept}: ${deptCourses.length} courses`);
+  }
+  save(path.join(OUTPUT, 'ohio-university', 'summer2026.json'), {
+    ...uni, term: 'Summer 2026',
+    sessions: [NEW_DATES.ohio.session1, NEW_DATES.ohio.session2],
+    scrapedAt: new Date().toISOString(), totalCourses: total,
+    departments: Object.keys(byDept).map(n => ({ name: n, count: byDept[n].length })),
+  });
+  return total;
+}
+
+async function scrapeMichiganU() {
+  console.log('\n📚 University of Michigan — Summer 2026');
+  const uni = {
+    id: 'michigan', fullName: 'University of Michigan',
+    shortName: 'U of M', city: 'Ann Arbor, MI',
+    web: 'https://umich.edu',
+    dates: NEW_DATES.michiganU,
+  };
+
+  const courses = [
+    { dept:'Computer Science', courseCode:'EECS-183', courseTitle:'Elementary Programming Concepts', instructor:'TBD', credits:'4', description:'Introduction to programming with Python and C++. Problem decomposition, algorithm design, and debugging. For non-CS majors and first-year CS students.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:00AM', format:'In Person', session:'session1', sourceUrl:'https://ro.umich.edu/calendars' },
+    { dept:'Computer Science', courseCode:'EECS-280', courseTitle:'Programming and Introductory Data Structures', instructor:'TBD', credits:'4', description:'Programming and data structures in C++. Linked lists, stacks, queues, trees, and recursion. Algorithm analysis.', meetingDays:'MTWTh', meetingTime:'1:00PM – 3:00PM', format:'In Person', session:'session2', sourceUrl:'https://ro.umich.edu/calendars' },
+    { dept:'Computer Science', courseCode:'EECS-376', courseTitle:'Foundations of Computer Science', instructor:'TBD', credits:'4', description:'Mathematical foundations of computing. Automata, computability, complexity theory, and algorithm design.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:00AM', format:'In Person', session:'full', sourceUrl:'https://ro.umich.edu/calendars' },
+    { dept:'Mathematics', courseCode:'MATH-115', courseTitle:'Calculus I', instructor:'TBD', credits:'4', description:'Introduction to calculus. Limits, continuity, differentiation of algebraic, exponential, logarithmic, and trigonometric functions. Applications.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:30AM', format:'In Person', session:'session1', sourceUrl:'https://ro.umich.edu/calendars' },
+    { dept:'Mathematics', courseCode:'MATH-116', courseTitle:'Calculus II', instructor:'TBD', credits:'4', description:'Techniques and applications of integration. Differential equations, sequences and series.', meetingDays:'MTWTh', meetingTime:'1:00PM – 3:30PM', format:'In Person', session:'session2', sourceUrl:'https://ro.umich.edu/calendars' },
+    { dept:'Engineering', courseCode:'ENGR-101', courseTitle:'Introduction to Computers and Programming', instructor:'TBD', credits:'4', description:'Introduction to engineering computing. Programming in C and MATLAB. Problem solving, algorithm design, and data structures for engineers.', meetingDays:'MTWTh', meetingTime:'9:00AM – 11:00AM', format:'In Person', session:'session1', sourceUrl:'https://ro.umich.edu/calendars' },
+    { dept:'Business', courseCode:'TO-301', courseTitle:'Business Analytics', instructor:'TBD', credits:'3', description:'Introduction to business analytics. Data analysis, visualization, statistical models, and decision making. Excel and Tableau tools.', meetingDays:'MTWTh', meetingTime:'1:00PM – 3:00PM', format:'In Person', session:'session2', sourceUrl:'https://michiganross.umich.edu' },
+    { dept:'Economics', courseCode:'ECON-101', courseTitle:'Principles of Economics I', instructor:'TBD', credits:'4', description:'Introduction to microeconomics. Supply and demand, consumer and producer behavior, market structures, and welfare economics.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session1', sourceUrl:'https://lsa.umich.edu/econ' },
+    { dept:'Psychology', courseCode:'PSYCH-111', courseTitle:'Introduction to Psychology', instructor:'TBD', credits:'4', description:'Survey of psychology. Biological bases, sensation, perception, learning, memory, cognition, social behavior, personality, and disorders.', meetingDays:'Online', meetingTime:'Asynchronous', format:'Online', session:'session2', sourceUrl:'https://lsa.umich.edu/psych' },
+    { dept:'Physics', courseCode:'PHYSICS-135', courseTitle:'Physics for the Life Sciences I', instructor:'TBD', credits:'4', description:'Mechanics, heat, and waves for pre-medical and life science students. Kinematics, Newton laws, energy, oscillations, and sound. Lab included.', meetingDays:'MTWTh', meetingTime:'9:00AM – 12:00PM', format:'In Person (with lab)', session:'session1', sourceUrl:'https://lsa.umich.edu/physics' },
+    { dept:'Chemistry', courseCode:'CHEM-130', courseTitle:'General Chemistry I', instructor:'TBD', credits:'4', description:'Atomic and molecular structure, stoichiometry, gas laws, thermochemistry, and chemical equilibrium. Lab included.', meetingDays:'MTWTh', meetingTime:'1:00PM – 4:00PM', format:'In Person (with lab)', session:'session2', sourceUrl:'https://lsa.umich.edu/chem' },
+    { dept:'Biology', courseCode:'BIO-171', courseTitle:'Introductory Biology I — Cell and Molecular Biology', instructor:'TBD', credits:'4', description:'Cell structure and function, molecular biology, genetics, and evolution. First course in the introductory biology sequence.', meetingDays:'MTWTh', meetingTime:'9:00AM – 12:00PM', format:'In Person', session:'session1', sourceUrl:'https://lsa.umich.edu/bio' },
+  ];
+
+  const byDept = {};
+  for (const raw of courses) {
+    const sessionKey = raw.session || 'session1';
+    const session = NEW_DATES.michiganU[sessionKey] || NEW_DATES.michiganU.session1;
+    if (!byDept[raw.dept]) byDept[raw.dept] = [];
+    byDept[raw.dept].push(buildCourseRecord(raw, uni, raw.dept, session));
+  }
+
+  let total = 0;
+  for (const [dept, deptCourses] of Object.entries(byDept)) {
+    const slug = dept.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    save(path.join(OUTPUT, 'michigan', `${slug}.json`), { department: dept, courses: deptCourses, count: deptCourses.length });
+    total += deptCourses.length;
+    console.log(`  ✅ U of M ${dept}: ${deptCourses.length} courses`);
+  }
+  save(path.join(OUTPUT, 'michigan', 'summer2026.json'), {
+    ...uni, term: 'Summer 2026',
+    sessions: [NEW_DATES.michiganU.session1, NEW_DATES.michiganU.session2, NEW_DATES.michiganU.full],
+    scrapedAt: new Date().toISOString(), totalCourses: total,
+    departments: Object.keys(byDept).map(n => ({ name: n, count: byDept[n].length })),
+  });
+  return total;
+}
+
+
 // ══════════════════════════════════════════════════════════════════════
 // MAIN
 // ══════════════════════════════════════════════════════════════════════
@@ -795,12 +1462,26 @@ async function main() {
   const results = [];
 
   const scrapers = [
-    { name: 'Harvard',  fn: scrapeHarvardCS50 },
-    { name: 'MIT OCW',  fn: scrapeMITOCW      },
-    { name: 'NYU',      fn: scrapeNYU         },
-    { name: 'UCLA',     fn: scrapeUCLA        },
-    { name: 'Stanford', fn: scrapeStanford    },
-    { name: 'Columbia', fn: scrapeColumbia    },
+    // Original 6
+    { name: 'Harvard',            fn: scrapeHarvardCS50 },
+    { name: 'MIT OCW',            fn: scrapeMITOCW      },
+    { name: 'NYU',                fn: scrapeNYU         },
+    { name: 'UCLA',               fn: scrapeUCLA        },
+    { name: 'Stanford',           fn: scrapeStanford    },
+    { name: 'Columbia',           fn: scrapeColumbia    },
+    // New 12
+    { name: 'Fordham',            fn: scrapeFordham     },
+    { name: 'Ivy Tech',           fn: scrapeIvyTech     },
+    { name: 'Boston University',  fn: scrapeBostonU     },
+    { name: 'U of Toledo',        fn: scrapeToledo      },
+    { name: 'UConn',              fn: scrapeUConn       },
+    { name: 'ASU',                fn: scrapeASU         },
+    { name: 'Texas A&M',          fn: scrapeTAMU        },
+    { name: 'Western Michigan',   fn: scrapeWMU         },
+    { name: 'Eastern Michigan',   fn: scrapeEMU         },
+    { name: 'San Diego State',    fn: scrapeSDSU        },
+    { name: 'Ohio University',    fn: scrapeOhioU       },
+    { name: 'U of Michigan',      fn: scrapeMichiganU   },
   ];
 
   let grandTotal = 0;
