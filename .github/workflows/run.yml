@@ -1,0 +1,32 @@
+name: Scrape Courses
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - run: npm install puppeteer cheerio axios
+
+      - run: sudo apt-get update -qq && sudo apt-get install -y chromium-browser
+
+      - run: mkdir -p data && node scraper.js
+        env:
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
+
+      - run: |
+          git config user.name "bot"
+          git config user.email "bot@github.com"
+          git add data/
+          git diff --staged --quiet || (git commit -m "update data" && git push)
