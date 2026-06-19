@@ -1,0 +1,450 @@
+{
+  "department": "Physics",
+  "courses": [
+    {
+      "university": "Massachusetts Institute of Technology",
+      "universitySlug": "mit",
+      "universityCity": "Cambridge, MA",
+      "universityWeb": "https://www.mit.edu",
+      "department": "Physics",
+      "departmentSlug": "physics",
+      "courseCode": "8.01",
+      "courseTitle": "Classical Mechanics",
+      "section": "",
+      "catalogNumber": "8.01",
+      "term": "Summer 2026",
+      "sessionName": "Summer Session",
+      "instructionStart": "June 9, 2026",
+      "instructionEnd": "August 19, 2026",
+      "addDropDeadline": "June 13, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MWF",
+      "meetingTime": "10:00am – 11:00am",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "5 units",
+      "instructor": "TBD",
+      "description": "Introduction to classical mechanics: space, time, straight-line kinematics, motion in a plane, forces and equilibrium, experimental basis of Newton's laws, particle dynamics, universal gravitation.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "June 18, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "June 27, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 6, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "July 15, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "July 24, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 2, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "August 11, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "August 20, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Massachusetts Institute of Technology's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Massachusetts Institute of Technology uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 9 – Jun 13, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 16 – Jun 20, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 23 – Jun 27, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 14 – Jul 18, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 21 – Jul 25, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 28 – Aug 1, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "8.01 Classical Mechanics — MIT Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Classical Mechanics at Massachusetts Institute of Technology",
+      "seoDescription": "Expert assignment help for Classical Mechanics (8.01) at Massachusetts Institute of Technology. Summer 2026: June 9, 2026 – August 19, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "8.01 assignment help",
+        "Classical Mechanics homework help",
+        "MIT Physics assignment help",
+        "MIT summer 2026 physics",
+        "8.01 MIT summer 2026",
+        "Classical Mechanics exam help",
+        "Classical Mechanics project help",
+        "Massachusetts Institute of Technology assignment writing service",
+        "Physics assignment help USA",
+        "Classical Mechanics online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/mit/physics/8-01",
+      "scrapedAt": "2026-06-19T08:38:05.946Z",
+      "dataSource": "https://www.mit.edu",
+      "verified": true
+    },
+    {
+      "university": "Massachusetts Institute of Technology",
+      "universitySlug": "mit",
+      "universityCity": "Cambridge, MA",
+      "universityWeb": "https://www.mit.edu",
+      "department": "Physics",
+      "departmentSlug": "physics",
+      "courseCode": "8.02",
+      "courseTitle": "Electricity and Magnetism",
+      "section": "",
+      "catalogNumber": "8.02",
+      "term": "Summer 2026",
+      "sessionName": "Summer Session",
+      "instructionStart": "June 9, 2026",
+      "instructionEnd": "August 19, 2026",
+      "addDropDeadline": "June 13, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MWF",
+      "meetingTime": "1:00pm – 2:00pm",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "5 units",
+      "instructor": "TBD",
+      "description": "Introduction to electromagnetic fields and forces. Electric charge and Coulomb's law, electric field and potential, magnetic field and force, electromagnetic induction.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "June 18, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "June 27, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 6, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "July 15, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "July 24, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 2, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "August 11, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "August 20, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via Massachusetts Institute of Technology's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Massachusetts Institute of Technology uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 9 – Jun 13, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 16 – Jun 20, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 23 – Jun 27, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 14 – Jul 18, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 21 – Jul 25, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 28 – Aug 1, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "8.02 Electricity and Magnetism — MIT Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Electricity and Magnetism at Massachusetts Institute of Technology",
+      "seoDescription": "Expert assignment help for Electricity and Magnetism (8.02) at Massachusetts Institute of Technology. Summer 2026: June 9, 2026 – August 19, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "8.02 assignment help",
+        "Electricity and Magnetism homework help",
+        "MIT Physics assignment help",
+        "MIT summer 2026 physics",
+        "8.02 MIT summer 2026",
+        "Electricity and Magnetism exam help",
+        "Electricity and Magnetism project help",
+        "Massachusetts Institute of Technology assignment writing service",
+        "Physics assignment help USA",
+        "Electricity and Magnetism online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/mit/physics/8-02",
+      "scrapedAt": "2026-06-19T08:38:05.947Z",
+      "dataSource": "https://www.mit.edu",
+      "verified": true
+    }
+  ],
+  "count": 2
+}

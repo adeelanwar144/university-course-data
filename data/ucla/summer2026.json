@@ -1,0 +1,79 @@
+{
+  "id": "ucla",
+  "fullName": "University of California, Los Angeles",
+  "shortName": "UCLA",
+  "city": "Los Angeles, CA",
+  "web": "https://www.ucla.edu",
+  "dates": {
+    "sessions": [
+      {
+        "name": "Session A",
+        "start": "June 22, 2026",
+        "end": "July 31, 2026"
+      },
+      {
+        "name": "Session C",
+        "start": "June 22, 2026",
+        "end": "August 28, 2026"
+      }
+    ],
+    "addDrop": "June 26, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Session A",
+      "start": "June 22, 2026",
+      "end": "July 31, 2026"
+    },
+    {
+      "name": "Session C",
+      "start": "June 22, 2026",
+      "end": "August 28, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-19T08:38:11.006Z",
+  "totalCourses": 19,
+  "departments": [
+    {
+      "name": "Computer Science",
+      "count": 4
+    },
+    {
+      "name": "Mathematics",
+      "count": 3
+    },
+    {
+      "name": "Physics",
+      "count": 2
+    },
+    {
+      "name": "Economics",
+      "count": 2
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    },
+    {
+      "name": "Life Sciences",
+      "count": 2
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Electrical Engineering",
+      "count": 1
+    },
+    {
+      "name": "Statistics",
+      "count": 2
+    },
+    {
+      "name": "Political Science",
+      "count": 1
+    }
+  ]
+}

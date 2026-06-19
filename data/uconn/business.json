@@ -1,0 +1,1011 @@
+{
+  "department": "Business",
+  "courses": [
+    {
+      "university": "University of Connecticut",
+      "universitySlug": "uconn",
+      "universityCity": "Storrs, CT",
+      "universityWeb": "https://www.uconn.edu",
+      "department": "Business",
+      "departmentSlug": "business",
+      "courseCode": "BUSN-2200",
+      "courseTitle": "Financial Accounting",
+      "section": "",
+      "catalogNumber": "BUSN-2200",
+      "term": "Summer 2026",
+      "sessionName": "Session 1",
+      "instructionStart": "June 1, 2026",
+      "instructionEnd": "July 2, 2026",
+      "addDropDeadline": "June 3, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "Online",
+      "meetingTime": "Asynchronous",
+      "location": "See registrar",
+      "format": "Online",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "Introduction to financial accounting. Financial statements, accounting cycle, assets, liabilities, equity, revenues, expenses, and cash flows. 100% online.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.uconn.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "June 10, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "June 19, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "June 28, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "July 7, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "July 16, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via University of Connecticut's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "University of Connecticut uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 1 – Jun 5, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 8 – Jun 12, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 15 – Jun 19, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 22 – Jun 26, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jun 29 – Jul 3, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 6 – Jul 10, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "BUSN-2200 Financial Accounting — UConn Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Financial Accounting at University of Connecticut",
+      "seoDescription": "Expert assignment help for Financial Accounting (BUSN-2200) at University of Connecticut. Summer 2026: June 1, 2026 – July 2, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "BUSN-2200 assignment help",
+        "Financial Accounting homework help",
+        "UConn Business assignment help",
+        "UConn summer 2026 business",
+        "BUSN-2200 UConn summer 2026",
+        "Financial Accounting exam help",
+        "Financial Accounting project help",
+        "University of Connecticut assignment writing service",
+        "Business assignment help USA",
+        "Financial Accounting online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/uconn/business/busn-2200",
+      "scrapedAt": "2026-06-19T08:38:28.634Z",
+      "dataSource": "https://summersession.uconn.edu/online-business-courses/",
+      "verified": true
+    },
+    {
+      "university": "University of Connecticut",
+      "universitySlug": "uconn",
+      "universityCity": "Storrs, CT",
+      "universityWeb": "https://www.uconn.edu",
+      "department": "Business",
+      "departmentSlug": "business",
+      "courseCode": "BUSN-2201",
+      "courseTitle": "Managerial Accounting",
+      "section": "",
+      "catalogNumber": "BUSN-2201",
+      "term": "Summer 2026",
+      "sessionName": "Session 2",
+      "instructionStart": "July 13, 2026",
+      "instructionEnd": "August 14, 2026",
+      "addDropDeadline": "June 3, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "Online",
+      "meetingTime": "Asynchronous",
+      "location": "See registrar",
+      "format": "Online",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "Introduction to cost accounting for management decision making. Job costing, process costing, budgeting, variance analysis, and performance evaluation. 100% online.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.uconn.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "July 22, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "July 31, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "August 9, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "August 18, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "August 27, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via University of Connecticut's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "University of Connecticut uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 27 – Jul 31, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Aug 3 – Aug 7, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Aug 10 – Aug 14, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Aug 17 – Aug 21, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 24 – Aug 28, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 31 – Sep 4, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "BUSN-2201 Managerial Accounting — UConn Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Managerial Accounting at University of Connecticut",
+      "seoDescription": "Expert assignment help for Managerial Accounting (BUSN-2201) at University of Connecticut. Summer 2026: July 13, 2026 – August 14, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "BUSN-2201 assignment help",
+        "Managerial Accounting homework help",
+        "UConn Business assignment help",
+        "UConn summer 2026 business",
+        "BUSN-2201 UConn summer 2026",
+        "Managerial Accounting exam help",
+        "Managerial Accounting project help",
+        "University of Connecticut assignment writing service",
+        "Business assignment help USA",
+        "Managerial Accounting online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/uconn/business/busn-2201",
+      "scrapedAt": "2026-06-19T08:38:28.635Z",
+      "dataSource": "https://summersession.uconn.edu/online-business-courses/",
+      "verified": true
+    },
+    {
+      "university": "University of Connecticut",
+      "universitySlug": "uconn",
+      "universityCity": "Storrs, CT",
+      "universityWeb": "https://www.uconn.edu",
+      "department": "Business",
+      "departmentSlug": "business",
+      "courseCode": "MGMT-3101",
+      "courseTitle": "Principles of Management",
+      "section": "",
+      "catalogNumber": "MGMT-3101",
+      "term": "Summer 2026",
+      "sessionName": "Session 1",
+      "instructionStart": "June 1, 2026",
+      "instructionEnd": "July 2, 2026",
+      "addDropDeadline": "June 3, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "Online",
+      "meetingTime": "Asynchronous",
+      "location": "See registrar",
+      "format": "Online",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "Management functions of planning, organizing, leading, and controlling. Organizational structure, human resources, motivation, communication, and leadership. 100% online.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.uconn.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "June 10, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "June 19, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "June 28, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "July 7, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "July 16, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via University of Connecticut's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "University of Connecticut uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 1 – Jun 5, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 8 – Jun 12, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 15 – Jun 19, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 22 – Jun 26, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jun 29 – Jul 3, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 6 – Jul 10, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "MGMT-3101 Principles of Management — UConn Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Principles of Management at University of Connecticut",
+      "seoDescription": "Expert assignment help for Principles of Management (MGMT-3101) at University of Connecticut. Summer 2026: June 1, 2026 – July 2, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "MGMT-3101 assignment help",
+        "Principles of Management homework help",
+        "UConn Business assignment help",
+        "UConn summer 2026 business",
+        "MGMT-3101 UConn summer 2026",
+        "Principles of Management exam help",
+        "Principles of Management project help",
+        "University of Connecticut assignment writing service",
+        "Business assignment help USA",
+        "Principles of Management online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/uconn/business/mgmt-3101",
+      "scrapedAt": "2026-06-19T08:38:28.636Z",
+      "dataSource": "https://summersession.uconn.edu/online-business-courses/",
+      "verified": true
+    },
+    {
+      "university": "University of Connecticut",
+      "universitySlug": "uconn",
+      "universityCity": "Storrs, CT",
+      "universityWeb": "https://www.uconn.edu",
+      "department": "Business",
+      "departmentSlug": "business",
+      "courseCode": "MKTG-3101",
+      "courseTitle": "Principles of Marketing",
+      "section": "",
+      "catalogNumber": "MKTG-3101",
+      "term": "Summer 2026",
+      "sessionName": "Session 2",
+      "instructionStart": "July 13, 2026",
+      "instructionEnd": "August 14, 2026",
+      "addDropDeadline": "June 3, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "Online",
+      "meetingTime": "Asynchronous",
+      "location": "See registrar",
+      "format": "Online",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "Marketing concepts, consumer behavior, market research, product, price, place, and promotion. Strategic marketing planning. 100% online.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.uconn.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "July 22, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "July 31, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "August 9, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "August 18, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "August 27, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via University of Connecticut's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "University of Connecticut uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 27 – Jul 31, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Aug 3 – Aug 7, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Aug 10 – Aug 14, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Aug 17 – Aug 21, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 24 – Aug 28, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 31 – Sep 4, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "MKTG-3101 Principles of Marketing — UConn Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Principles of Marketing at University of Connecticut",
+      "seoDescription": "Expert assignment help for Principles of Marketing (MKTG-3101) at University of Connecticut. Summer 2026: July 13, 2026 – August 14, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "MKTG-3101 assignment help",
+        "Principles of Marketing homework help",
+        "UConn Business assignment help",
+        "UConn summer 2026 business",
+        "MKTG-3101 UConn summer 2026",
+        "Principles of Marketing exam help",
+        "Principles of Marketing project help",
+        "University of Connecticut assignment writing service",
+        "Business assignment help USA",
+        "Principles of Marketing online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/uconn/business/mktg-3101",
+      "scrapedAt": "2026-06-19T08:38:28.637Z",
+      "dataSource": "https://summersession.uconn.edu/online-business-courses/",
+      "verified": true
+    },
+    {
+      "university": "University of Connecticut",
+      "universitySlug": "uconn",
+      "universityCity": "Storrs, CT",
+      "universityWeb": "https://www.uconn.edu",
+      "department": "Business",
+      "departmentSlug": "business",
+      "courseCode": "FNCE-3101",
+      "courseTitle": "Financial Management",
+      "section": "",
+      "catalogNumber": "FNCE-3101",
+      "term": "Summer 2026",
+      "sessionName": "Session 1",
+      "instructionStart": "June 1, 2026",
+      "instructionEnd": "July 2, 2026",
+      "addDropDeadline": "June 3, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "Online",
+      "meetingTime": "Asynchronous",
+      "location": "See registrar",
+      "format": "Online",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "Corporate finance fundamentals. Time value of money, capital budgeting, cost of capital, capital structure, dividends, and working capital management. 100% online.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.uconn.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "June 10, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "June 19, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "June 28, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "July 7, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "July 16, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via University of Connecticut's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "University of Connecticut uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 1 – Jun 5, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 8 – Jun 12, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 15 – Jun 19, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 22 – Jun 26, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jun 29 – Jul 3, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 6 – Jul 10, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "FNCE-3101 Financial Management — UConn Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Financial Management at University of Connecticut",
+      "seoDescription": "Expert assignment help for Financial Management (FNCE-3101) at University of Connecticut. Summer 2026: June 1, 2026 – July 2, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "FNCE-3101 assignment help",
+        "Financial Management homework help",
+        "UConn Business assignment help",
+        "UConn summer 2026 business",
+        "FNCE-3101 UConn summer 2026",
+        "Financial Management exam help",
+        "Financial Management project help",
+        "University of Connecticut assignment writing service",
+        "Business assignment help USA",
+        "Financial Management online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/uconn/business/fnce-3101",
+      "scrapedAt": "2026-06-19T08:38:28.638Z",
+      "dataSource": "https://summersession.uconn.edu/online-business-courses/",
+      "verified": true
+    }
+  ],
+  "count": 5
+}

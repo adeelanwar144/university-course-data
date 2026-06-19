@@ -1,0 +1,67 @@
+{
+  "id": "boston-university",
+  "fullName": "Boston University",
+  "shortName": "BU",
+  "city": "Boston, MA",
+  "web": "https://www.bu.edu",
+  "dates": {
+    "session1": {
+      "name": "Summer Session",
+      "start": "May 19, 2026",
+      "end": "August 21, 2026"
+    },
+    "addDrop": "May 26, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Summer Session",
+      "start": "May 19, 2026",
+      "end": "August 21, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-19T08:38:23.613Z",
+  "totalCourses": 15,
+  "departments": [
+    {
+      "name": "Computer Science",
+      "count": 3
+    },
+    {
+      "name": "Economics",
+      "count": 2
+    },
+    {
+      "name": "Mathematics",
+      "count": 3
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    },
+    {
+      "name": "Biology",
+      "count": 1
+    },
+    {
+      "name": "Physics",
+      "count": 1
+    },
+    {
+      "name": "Business",
+      "count": 1
+    },
+    {
+      "name": "Neuroscience",
+      "count": 1
+    },
+    {
+      "name": "Political Science",
+      "count": 1
+    },
+    {
+      "name": "Film & Television",
+      "count": 1
+    }
+  ]
+}

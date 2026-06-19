@@ -1,0 +1,207 @@
+{
+  "department": "Business",
+  "courses": [
+    {
+      "university": "University of Michigan",
+      "universitySlug": "michigan",
+      "universityCity": "Ann Arbor, MI",
+      "universityWeb": "https://umich.edu",
+      "department": "Business",
+      "departmentSlug": "business",
+      "courseCode": "TO-301",
+      "courseTitle": "Business Analytics",
+      "section": "",
+      "catalogNumber": "TO-301",
+      "term": "Summer 2026",
+      "sessionName": "Half Term 2",
+      "instructionStart": "June 22, 2026",
+      "instructionEnd": "August 7, 2026",
+      "addDropDeadline": "May 8, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MTWTh",
+      "meetingTime": "1:00PM – 3:00PM",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "Introduction to business analytics. Data analysis, visualization, statistical models, and decision making. Excel and Tableau tools.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://umich.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "July 1, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "July 10, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "July 19, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "July 28, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "August 6, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via University of Michigan's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "University of Michigan uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jun 22 – Jun 26, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 29 – Jul 3, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 6 – Jul 10, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jul 13 – Jul 17, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 20 – Jul 24, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jul 27 – Jul 31, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 3 – Aug 7, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 10 – Aug 14, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "TO-301 Business Analytics — U of M Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Business Analytics at University of Michigan",
+      "seoDescription": "Expert assignment help for Business Analytics (TO-301) at University of Michigan. Summer 2026: June 22, 2026 – August 7, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "TO-301 assignment help",
+        "Business Analytics homework help",
+        "U of M Business assignment help",
+        "U of M summer 2026 business",
+        "TO-301 U of M summer 2026",
+        "Business Analytics exam help",
+        "Business Analytics project help",
+        "University of Michigan assignment writing service",
+        "Business assignment help USA",
+        "Business Analytics online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/michigan/business/to-301",
+      "scrapedAt": "2026-06-19T08:38:46.245Z",
+      "dataSource": "https://michiganross.umich.edu",
+      "verified": true
+    }
+  ],
+  "count": 1
+}

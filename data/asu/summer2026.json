@@ -1,0 +1,84 @@
+{
+  "id": "asu",
+  "fullName": "Arizona State University",
+  "shortName": "ASU",
+  "city": "Tempe, AZ",
+  "web": "https://www.asu.edu",
+  "dates": {
+    "sessionA": {
+      "name": "Session A",
+      "start": "May 18, 2026",
+      "end": "June 26, 2026"
+    },
+    "sessionB": {
+      "name": "Session B",
+      "start": "June 29, 2026",
+      "end": "August 11, 2026"
+    },
+    "sessionC": {
+      "name": "Session C",
+      "start": "May 18, 2026",
+      "end": "August 7, 2026"
+    },
+    "addDrop": "May 20, 2026",
+    "withdrawal": "July 21, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Session A",
+      "start": "May 18, 2026",
+      "end": "June 26, 2026"
+    },
+    {
+      "name": "Session B",
+      "start": "June 29, 2026",
+      "end": "August 11, 2026"
+    },
+    {
+      "name": "Session C",
+      "start": "May 18, 2026",
+      "end": "August 7, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-19T08:38:31.168Z",
+  "totalCourses": 14,
+  "departments": [
+    {
+      "name": "Computer Science",
+      "count": 3
+    },
+    {
+      "name": "Mathematics",
+      "count": 3
+    },
+    {
+      "name": "Engineering",
+      "count": 1
+    },
+    {
+      "name": "Business",
+      "count": 2
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    },
+    {
+      "name": "Biology",
+      "count": 1
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    },
+    {
+      "name": "Physics",
+      "count": 1
+    },
+    {
+      "name": "Statistics",
+      "count": 1
+    }
+  ]
+}

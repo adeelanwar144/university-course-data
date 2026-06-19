@@ -1,0 +1,207 @@
+{
+  "department": "English",
+  "courses": [
+    {
+      "university": "Fordham University",
+      "universitySlug": "fordham",
+      "universityCity": "New York, NY (Bronx & Manhattan)",
+      "universityWeb": "https://www.fordham.edu",
+      "department": "English",
+      "departmentSlug": "english",
+      "courseCode": "ENGL-1100",
+      "courseTitle": "Writing and Rhetoric I",
+      "section": "",
+      "catalogNumber": "ENGL-1100",
+      "term": "Summer 2026",
+      "sessionName": "Session 1",
+      "instructionStart": "May 26, 2026",
+      "instructionEnd": "June 25, 2026",
+      "addDropDeadline": "May 27, 2026",
+      "withdrawalDeadline": "June 18, 2026",
+      "meetingDays": "MTWTh",
+      "meetingTime": "9:00AM – 12:00PM",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "Introduction to academic writing and critical thinking. Students practice expository and argumentative writing through multiple drafts, peer review, and revision. Emphasis on organization, clarity, and evidence-based argumentation.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.fordham.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "June 4, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "June 13, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "June 22, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "July 1, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "July 10, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via Fordham University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Fordham University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "May 26 – May 30, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 2 – Jun 6, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 9 – Jun 13, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 16 – Jun 20, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jun 23 – Jun 27, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 14 – Jul 18, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "ENGL-1100 Writing and Rhetoric I — Fordham Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Writing and Rhetoric I at Fordham University",
+      "seoDescription": "Expert assignment help for Writing and Rhetoric I (ENGL-1100) at Fordham University. Summer 2026: May 26, 2026 – June 25, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "ENGL-1100 assignment help",
+        "Writing and Rhetoric I homework help",
+        "Fordham English assignment help",
+        "Fordham summer 2026 english",
+        "ENGL-1100 Fordham summer 2026",
+        "Writing and Rhetoric I exam help",
+        "Writing and Rhetoric I project help",
+        "Fordham University assignment writing service",
+        "English assignment help USA",
+        "Writing and Rhetoric I online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/fordham/english/engl-1100",
+      "scrapedAt": "2026-06-19T08:38:18.573Z",
+      "dataSource": "https://www.fordham.edu/summer-session/",
+      "verified": true
+    }
+  ],
+  "count": 1
+}

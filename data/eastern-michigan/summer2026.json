@@ -1,0 +1,61 @@
+{
+  "id": "eastern-michigan",
+  "fullName": "Eastern Michigan University",
+  "shortName": "EMU",
+  "city": "Ypsilanti, MI",
+  "web": "https://www.emich.edu",
+  "dates": {
+    "session1": {
+      "name": "Session I",
+      "start": "May 4, 2026",
+      "end": "June 13, 2026"
+    },
+    "session2": {
+      "name": "Session II",
+      "start": "June 15, 2026",
+      "end": "August 7, 2026"
+    },
+    "addDrop": "May 7, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Session I",
+      "start": "May 4, 2026",
+      "end": "June 13, 2026"
+    },
+    {
+      "name": "Session II",
+      "start": "June 15, 2026",
+      "end": "August 7, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-19T08:38:38.709Z",
+  "totalCourses": 8,
+  "departments": [
+    {
+      "name": "Computer Science",
+      "count": 2
+    },
+    {
+      "name": "Mathematics",
+      "count": 2
+    },
+    {
+      "name": "Business",
+      "count": 1
+    },
+    {
+      "name": "Education",
+      "count": 1
+    },
+    {
+      "name": "Health Sciences",
+      "count": 1
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "toledo",
+  "fullName": "University of Toledo",
+  "shortName": "UToledo",
+  "city": "Toledo, OH",
+  "web": "https://www.utoledo.edu",
+  "dates": {
+    "session1": {
+      "name": "Session I",
+      "start": "May 18, 2026",
+      "end": "June 26, 2026"
+    },
+    "session2": {
+      "name": "Session II",
+      "start": "June 29, 2026",
+      "end": "August 7, 2026"
+    },
+    "session3": {
+      "name": "Session III",
+      "start": "June 15, 2026",
+      "end": "August 7, 2026"
+    },
+    "addDrop": "May 22, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Session I",
+      "start": "May 18, 2026",
+      "end": "June 26, 2026"
+    },
+    {
+      "name": "Session II",
+      "start": "June 29, 2026",
+      "end": "August 7, 2026"
+    },
+    {
+      "name": "Session III",
+      "start": "June 15, 2026",
+      "end": "August 7, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-19T08:38:26.129Z",
+  "totalCourses": 11,
+  "departments": [
+    {
+      "name": "Computer Science",
+      "count": 2
+    },
+    {
+      "name": "Mathematics",
+      "count": 2
+    },
+    {
+      "name": "Engineering",
+      "count": 1
+    },
+    {
+      "name": "Business",
+      "count": 1
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    },
+    {
+      "name": "Biology",
+      "count": 1
+    },
+    {
+      "name": "Chemistry",
+      "count": 1
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    },
+    {
+      "name": "Nursing",
+      "count": 1
+    }
+  ]
+}

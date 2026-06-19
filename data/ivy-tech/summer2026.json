@@ -1,0 +1,55 @@
+{
+  "id": "ivy-tech",
+  "fullName": "Ivy Tech Community College",
+  "shortName": "Ivy Tech",
+  "city": "Statewide, Indiana",
+  "web": "https://www.ivytech.edu",
+  "dates": {
+    "session1": {
+      "name": "Summer 2026",
+      "start": "June 8, 2026",
+      "end": "August 7, 2026"
+    },
+    "addDrop": "June 7, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Summer 2026",
+      "start": "June 8, 2026",
+      "end": "August 7, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-19T08:38:21.093Z",
+  "totalCourses": 12,
+  "departments": [
+    {
+      "name": "Computer Science",
+      "count": 3
+    },
+    {
+      "name": "Business Administration",
+      "count": 3
+    },
+    {
+      "name": "Mathematics",
+      "count": 2
+    },
+    {
+      "name": "Biology",
+      "count": 1
+    },
+    {
+      "name": "Chemistry",
+      "count": 1
+    },
+    {
+      "name": "Healthcare Sciences",
+      "count": 1
+    },
+    {
+      "name": "Criminal Justice",
+      "count": 1
+    }
+  ]
+}

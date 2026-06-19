@@ -1,0 +1,87 @@
+{
+  "id": "columbia",
+  "fullName": "Columbia University",
+  "shortName": "Columbia",
+  "city": "New York, NY",
+  "web": "https://www.columbia.edu",
+  "dates": {
+    "sessions": [
+      {
+        "name": "Session A",
+        "start": "May 26, 2026",
+        "end": "July 2, 2026"
+      },
+      {
+        "name": "Session B",
+        "start": "July 6, 2026",
+        "end": "August 14, 2026"
+      }
+    ],
+    "addDrop": "May 29, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Session A",
+      "start": "May 26, 2026",
+      "end": "July 2, 2026"
+    },
+    {
+      "name": "Session B",
+      "start": "July 6, 2026",
+      "end": "August 14, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-19T08:38:16.048Z",
+  "totalCourses": 14,
+  "departments": [
+    {
+      "name": "Computer Science",
+      "count": 2
+    },
+    {
+      "name": "Mathematics",
+      "count": 2
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    },
+    {
+      "name": "Physics",
+      "count": 1
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    },
+    {
+      "name": "Political Science",
+      "count": 1
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Biology",
+      "count": 1
+    },
+    {
+      "name": "Statistics",
+      "count": 1
+    },
+    {
+      "name": "Engineering",
+      "count": 1
+    },
+    {
+      "name": "Chemistry",
+      "count": 1
+    },
+    {
+      "name": "Film Studies",
+      "count": 1
+    }
+  ]
+}

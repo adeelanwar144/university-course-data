@@ -1,0 +1,72 @@
+{
+  "id": "fordham",
+  "fullName": "Fordham University",
+  "shortName": "Fordham",
+  "city": "New York, NY (Bronx & Manhattan)",
+  "web": "https://www.fordham.edu",
+  "dates": {
+    "session1": {
+      "name": "Session 1",
+      "start": "May 26, 2026",
+      "end": "June 25, 2026"
+    },
+    "session2": {
+      "name": "Session 2",
+      "start": "June 30, 2026",
+      "end": "August 4, 2026"
+    },
+    "session3": {
+      "name": "Session 3",
+      "start": "May 26, 2026",
+      "end": "August 4, 2026"
+    },
+    "addDrop": "May 27, 2026",
+    "withdrawal": "June 18, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Session 1",
+      "start": "May 26, 2026",
+      "end": "June 25, 2026"
+    },
+    {
+      "name": "Session 2",
+      "start": "June 30, 2026",
+      "end": "August 4, 2026"
+    },
+    {
+      "name": "Session 3",
+      "start": "May 26, 2026",
+      "end": "August 4, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-19T08:38:18.576Z",
+  "totalCourses": 25,
+  "departments": [
+    {
+      "name": "Business",
+      "count": 19
+    },
+    {
+      "name": "Computer Science",
+      "count": 1
+    },
+    {
+      "name": "Mathematics",
+      "count": 2
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    },
+    {
+      "name": "English",
+      "count": 1
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    }
+  ]
+}

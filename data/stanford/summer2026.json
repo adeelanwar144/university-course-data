@@ -1,0 +1,65 @@
+{
+  "id": "stanford",
+  "fullName": "Stanford University",
+  "shortName": "Stanford",
+  "city": "Stanford, CA",
+  "web": "https://www.stanford.edu",
+  "dates": {
+    "sessions": [
+      {
+        "name": "Summer Quarter",
+        "start": "June 23, 2026",
+        "end": "August 14, 2026"
+      }
+    ],
+    "addDrop": "June 28, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Summer Quarter",
+      "start": "June 23, 2026",
+      "end": "August 14, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-19T08:38:13.521Z",
+  "totalCourses": 12,
+  "departments": [
+    {
+      "name": "Computer Science",
+      "count": 3
+    },
+    {
+      "name": "Mathematics",
+      "count": 2
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    },
+    {
+      "name": "Statistics",
+      "count": 1
+    },
+    {
+      "name": "Physics",
+      "count": 1
+    },
+    {
+      "name": "Biology",
+      "count": 1
+    },
+    {
+      "name": "Engineering",
+      "count": 1
+    },
+    {
+      "name": "History",
+      "count": 1
+    }
+  ]
+}

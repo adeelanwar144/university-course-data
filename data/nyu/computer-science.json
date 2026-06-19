@@ -1,0 +1,450 @@
+{
+  "department": "Computer Science",
+  "courses": [
+    {
+      "university": "New York University",
+      "universitySlug": "nyu",
+      "universityCity": "New York, NY",
+      "universityWeb": "https://www.nyu.edu",
+      "department": "Computer Science",
+      "departmentSlug": "computer-science",
+      "courseCode": "CSCI-UA 101",
+      "courseTitle": "Introduction to Computer Science",
+      "section": "",
+      "catalogNumber": "CSCI-UA 101",
+      "term": "Summer 2026",
+      "sessionName": "Session II",
+      "instructionStart": "July 1, 2026",
+      "instructionEnd": "August 12, 2026",
+      "addDropDeadline": "May 22, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MTWTh",
+      "meetingTime": "9:00am – 10:15am",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "4",
+      "instructor": "TBD",
+      "description": "Introduction to computer programming for students with no prior experience. Topics include problem decomposition, iteration, conditionals, functions, recursion, and basic data structures using Python.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.nyu.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "July 10, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "July 19, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 28, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "August 6, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "August 15, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 24, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "September 2, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "September 11, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via New York University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "New York University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jul 1 – Jul 5, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jul 8 – Jul 12, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 15 – Jul 19, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jul 22 – Jul 26, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 29 – Aug 2, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Aug 5 – Aug 9, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 12 – Aug 16, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 19 – Aug 23, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "CSCI-UA 101 Introduction to Computer Science — NYU Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Introduction to Computer Science at New York University",
+      "seoDescription": "Expert assignment help for Introduction to Computer Science (CSCI-UA 101) at New York University. Summer 2026: July 1, 2026 – August 12, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "CSCI-UA 101 assignment help",
+        "Introduction to Computer Science homework help",
+        "NYU Computer Science assignment help",
+        "NYU summer 2026 computer science",
+        "CSCI-UA 101 NYU summer 2026",
+        "Introduction to Computer Science exam help",
+        "Introduction to Computer Science project help",
+        "New York University assignment writing service",
+        "Computer Science assignment help USA",
+        "Introduction to Computer Science online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/nyu/computer-science/csci-ua-101",
+      "scrapedAt": "2026-06-19T08:38:08.473Z",
+      "dataSource": "https://cs.nyu.edu",
+      "verified": true
+    },
+    {
+      "university": "New York University",
+      "universitySlug": "nyu",
+      "universityCity": "New York, NY",
+      "universityWeb": "https://www.nyu.edu",
+      "department": "Computer Science",
+      "departmentSlug": "computer-science",
+      "courseCode": "CSCI-UA 201",
+      "courseTitle": "Computer Systems Organization",
+      "section": "",
+      "catalogNumber": "CSCI-UA 201",
+      "term": "Summer 2026",
+      "sessionName": "Session II",
+      "instructionStart": "July 1, 2026",
+      "instructionEnd": "August 12, 2026",
+      "addDropDeadline": "May 22, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MW",
+      "meetingTime": "2:00pm – 3:15pm",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "4",
+      "instructor": "TBD",
+      "description": "Introduction to computer systems organization. Assembly language programming, machine structure, instruction sets, memory hierarchy, I/O.",
+      "prerequisites": "None — see course catalog",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.nyu.edu",
+      "seatsAvailable": "See registrar",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 1 — Scratch",
+          "weight": 10,
+          "week": "Week 0-1",
+          "dueDate": "July 10, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 2 — C",
+          "weight": 10,
+          "week": "Week 1-2",
+          "dueDate": "July 19, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 3 — Arrays",
+          "weight": 10,
+          "week": "Week 2-3",
+          "dueDate": "July 28, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 4 — Memory",
+          "weight": 10,
+          "week": "Week 3-4",
+          "dueDate": "August 6, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 5 — Data Structures",
+          "weight": 10,
+          "week": "Week 4-5",
+          "dueDate": "August 15, 2026"
+        },
+        {
+          "type": "Quiz",
+          "name": "Test — Week 5",
+          "weight": 25,
+          "week": "Week 5",
+          "dueDate": "August 24, 2026"
+        },
+        {
+          "type": "Problem Set",
+          "name": "Problem Set 6 — Python",
+          "weight": 10,
+          "week": "Week 6-7",
+          "dueDate": "September 2, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Final Project",
+          "weight": 15,
+          "week": "Week 7-8",
+          "dueDate": "September 11, 2026"
+        }
+      ],
+      "totalAssignments": 8,
+      "assignmentPolicy": "All assignments submitted via New York University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Problem Sets",
+          "percentage": 50
+        },
+        {
+          "name": "Test",
+          "percentage": 25
+        },
+        {
+          "name": "Final Project",
+          "percentage": 15
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "New York University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "Jul 1 – Jul 5, 2026",
+          "topic": "Computational Thinking & Scratch",
+          "description": "Introduction to algorithms, abstraction, and visual programming"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jul 8 – Jul 12, 2026",
+          "topic": "C — Functions, Variables, Loops",
+          "description": "Low-level programming: memory, compilation, data types"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jul 15 – Jul 19, 2026",
+          "topic": "Arrays & Cryptography",
+          "description": "Arrays, strings, command-line arguments, Caesar cipher"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jul 22 – Jul 26, 2026",
+          "topic": "Memory & Pointers",
+          "description": "Addresses, pointers, malloc, valgrind, file I/O"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jul 29 – Aug 2, 2026",
+          "topic": "Data Structures",
+          "description": "Linked lists, hash tables, tries, trees, stacks, queues"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Aug 5 – Aug 9, 2026",
+          "topic": "Python",
+          "description": "Transition to Python: syntax, libraries, data analysis"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Aug 12 – Aug 16, 2026",
+          "topic": "SQL & Databases",
+          "description": "Relational databases, SQL queries, database design"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Aug 19 – Aug 23, 2026",
+          "topic": "HTML, CSS & JavaScript",
+          "description": "Web development fundamentals, DOM, Flask framework"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "CSCI-UA 201 Computer Systems Organization — NYU Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Computer Systems Organization at New York University",
+      "seoDescription": "Expert assignment help for Computer Systems Organization (CSCI-UA 201) at New York University. Summer 2026: July 1, 2026 – August 12, 2026. Get help with Problem Set 1 — Scratch, Problem Set 2 — C, Problem Set 3 — Arrays and more.",
+      "seoKeywords": [
+        "CSCI-UA 201 assignment help",
+        "Computer Systems Organization homework help",
+        "NYU Computer Science assignment help",
+        "NYU summer 2026 computer science",
+        "CSCI-UA 201 NYU summer 2026",
+        "Computer Systems Organization exam help",
+        "Computer Systems Organization project help",
+        "New York University assignment writing service",
+        "Computer Science assignment help USA",
+        "Computer Systems Organization online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/nyu/computer-science/csci-ua-201",
+      "scrapedAt": "2026-06-19T08:38:08.474Z",
+      "dataSource": "https://cs.nyu.edu",
+      "verified": true
+    }
+  ],
+  "count": 2
+}

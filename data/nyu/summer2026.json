@@ -1,0 +1,71 @@
+{
+  "id": "nyu",
+  "fullName": "New York University",
+  "shortName": "NYU",
+  "city": "New York, NY",
+  "web": "https://www.nyu.edu",
+  "dates": {
+    "sessions": [
+      {
+        "name": "Session I",
+        "start": "May 18, 2026",
+        "end": "June 30, 2026"
+      },
+      {
+        "name": "Session II",
+        "start": "July 1, 2026",
+        "end": "August 12, 2026"
+      }
+    ],
+    "addDrop": "May 22, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Session I",
+      "start": "May 18, 2026",
+      "end": "June 30, 2026"
+    },
+    {
+      "name": "Session II",
+      "start": "July 1, 2026",
+      "end": "August 12, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-19T08:38:08.482Z",
+  "totalCourses": 16,
+  "departments": [
+    {
+      "name": "English",
+      "count": 5
+    },
+    {
+      "name": "Mathematics",
+      "count": 3
+    },
+    {
+      "name": "Computer Science",
+      "count": 2
+    },
+    {
+      "name": "Economics",
+      "count": 2
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    },
+    {
+      "name": "Biology",
+      "count": 1
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Physics",
+      "count": 1
+    }
+  ]
+}

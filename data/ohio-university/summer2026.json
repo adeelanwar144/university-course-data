@@ -1,0 +1,65 @@
+{
+  "id": "ohio-university",
+  "fullName": "Ohio University",
+  "shortName": "Ohio U",
+  "city": "Athens, OH",
+  "web": "https://www.ohio.edu",
+  "dates": {
+    "session1": {
+      "name": "Session I",
+      "start": "May 11, 2026",
+      "end": "June 19, 2026"
+    },
+    "session2": {
+      "name": "Session II",
+      "start": "June 22, 2026",
+      "end": "August 7, 2026"
+    },
+    "addDrop": "May 14, 2026"
+  },
+  "term": "Summer 2026",
+  "sessions": [
+    {
+      "name": "Session I",
+      "start": "May 11, 2026",
+      "end": "June 19, 2026"
+    },
+    {
+      "name": "Session II",
+      "start": "June 22, 2026",
+      "end": "August 7, 2026"
+    }
+  ],
+  "scrapedAt": "2026-06-19T08:38:43.735Z",
+  "totalCourses": 9,
+  "departments": [
+    {
+      "name": "Computer Science",
+      "count": 2
+    },
+    {
+      "name": "Mathematics",
+      "count": 2
+    },
+    {
+      "name": "Business",
+      "count": 1
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    },
+    {
+      "name": "Communication",
+      "count": 1
+    },
+    {
+      "name": "Engineering",
+      "count": 1
+    },
+    {
+      "name": "Health Sciences",
+      "count": 1
+    }
+  ]
+}

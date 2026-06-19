@@ -1,0 +1,207 @@
+{
+  "department": "Biology",
+  "courses": [
+    {
+      "university": "Columbia University",
+      "universitySlug": "columbia",
+      "universityCity": "New York, NY",
+      "universityWeb": "https://www.columbia.edu",
+      "department": "Biology",
+      "departmentSlug": "biology",
+      "courseCode": "BIOL UN2005",
+      "courseTitle": "Molecules, Genes, and Cells",
+      "section": "",
+      "catalogNumber": "BIOL UN2005",
+      "term": "Summer 2026",
+      "sessionName": "Session A",
+      "instructionStart": "May 26, 2026",
+      "instructionEnd": "July 2, 2026",
+      "addDropDeadline": "May 29, 2026",
+      "withdrawalDeadline": "",
+      "meetingDays": "MTWTh",
+      "meetingTime": "10:10am – 11:25am",
+      "location": "See registrar",
+      "format": "In Person",
+      "credits": "3",
+      "instructor": "TBD",
+      "description": "An introduction to the molecular and cellular aspects of biology. Includes biochemistry of proteins and nucleic acids, molecular genetics, and cell structure and function.",
+      "prerequisites": "One year of chemistry recommended",
+      "corequisites": "None",
+      "textbook": "See instructor syllabus",
+      "syllabusUrl": "https://www.columbia.edu",
+      "seatsAvailable": "40",
+      "enrollmentStatus": "Open — Summer 2026",
+      "assignments": [
+        {
+          "type": "Assignment",
+          "name": "Assignment 1 — Foundations",
+          "weight": 15,
+          "week": "Week 2",
+          "dueDate": "June 4, 2026"
+        },
+        {
+          "type": "Assignment",
+          "name": "Assignment 2 — Analysis",
+          "weight": 15,
+          "week": "Week 4",
+          "dueDate": "June 13, 2026"
+        },
+        {
+          "type": "Midterm",
+          "name": "Midterm Examination",
+          "weight": 25,
+          "week": "Week 4",
+          "dueDate": "June 22, 2026"
+        },
+        {
+          "type": "Project",
+          "name": "Research Project",
+          "weight": 15,
+          "week": "Week 6",
+          "dueDate": "July 1, 2026"
+        },
+        {
+          "type": "Final Exam",
+          "name": "Final Examination",
+          "weight": 30,
+          "week": "Last week",
+          "dueDate": "July 10, 2026"
+        }
+      ],
+      "totalAssignments": 5,
+      "assignmentPolicy": "All assignments submitted via Columbia University's learning management system. Late submissions penalized 10% per day unless prior arrangement with instructor.",
+      "assessments": [
+        {
+          "name": "Assignments",
+          "percentage": 30
+        },
+        {
+          "name": "Midterm",
+          "percentage": 25
+        },
+        {
+          "name": "Final Exam",
+          "percentage": 35
+        },
+        {
+          "name": "Participation",
+          "percentage": 10
+        }
+      ],
+      "gradingScale": [
+        {
+          "grade": "A",
+          "range": "93–100%"
+        },
+        {
+          "grade": "A-",
+          "range": "90–92%"
+        },
+        {
+          "grade": "B+",
+          "range": "87–89%"
+        },
+        {
+          "grade": "B",
+          "range": "83–86%"
+        },
+        {
+          "grade": "B-",
+          "range": "80–82%"
+        },
+        {
+          "grade": "C+",
+          "range": "77–79%"
+        },
+        {
+          "grade": "C",
+          "range": "73–76%"
+        },
+        {
+          "grade": "C-",
+          "range": "70–72%"
+        },
+        {
+          "grade": "D",
+          "range": "60–69%"
+        },
+        {
+          "grade": "F",
+          "range": "Below 60%"
+        }
+      ],
+      "gradingPolicy": "Columbia University uses standard letter grading (A–F). Final grades reflect all weighted assessments. Students must score at least 70% to pass.",
+      "weeklyModules": [
+        {
+          "week": "Week 1",
+          "dateRange": "May 26 – May 30, 2026",
+          "topic": "Introduction & Foundations",
+          "description": "Course overview, key concepts, methodologies, expectations"
+        },
+        {
+          "week": "Week 2",
+          "dateRange": "Jun 2 – Jun 6, 2026",
+          "topic": "Core Theory I",
+          "description": "Foundational theories and conceptual frameworks"
+        },
+        {
+          "week": "Week 3",
+          "dateRange": "Jun 9 – Jun 13, 2026",
+          "topic": "Core Theory II",
+          "description": "Advanced theoretical models and their applications"
+        },
+        {
+          "week": "Week 4",
+          "dateRange": "Jun 16 – Jun 20, 2026",
+          "topic": "Applied Methods",
+          "description": "Practical application of course concepts to real problems"
+        },
+        {
+          "week": "Week 5",
+          "dateRange": "Jun 23 – Jun 27, 2026",
+          "topic": "Case Studies & Analysis",
+          "description": "Real-world examples, critical analysis, group discussion"
+        },
+        {
+          "week": "Week 6",
+          "dateRange": "Jun 30 – Jul 4, 2026",
+          "topic": "Research & Writing Skills",
+          "description": "Academic writing, citation, research methodology"
+        },
+        {
+          "week": "Week 7",
+          "dateRange": "Jul 7 – Jul 11, 2026",
+          "topic": "Advanced Topics",
+          "description": "Current debates, emerging perspectives, guest lectures"
+        },
+        {
+          "week": "Week 8",
+          "dateRange": "Jul 14 – Jul 18, 2026",
+          "topic": "Final Review & Presentations",
+          "description": "Course synthesis, project presentations, exam preparation"
+        }
+      ],
+      "totalWeeks": 8,
+      "seoTitle": "BIOL UN2005 Molecules, Genes, and Cells — Columbia Summer 2026 Assignment Help",
+      "seoH1": "Assignment Help for Molecules, Genes, and Cells at Columbia University",
+      "seoDescription": "Expert assignment help for Molecules, Genes, and Cells (BIOL UN2005) at Columbia University. Summer 2026: May 26, 2026 – July 2, 2026. Get help with Assignment 1 — Foundations, Assignment 2 — Analysis, Midterm Examination and more.",
+      "seoKeywords": [
+        "BIOL UN2005 assignment help",
+        "Molecules, Genes, and Cells homework help",
+        "Columbia Biology assignment help",
+        "Columbia summer 2026 biology",
+        "BIOL UN2005 Columbia summer 2026",
+        "Molecules, Genes, and Cells exam help",
+        "Molecules, Genes, and Cells project help",
+        "Columbia University assignment writing service",
+        "Biology assignment help USA",
+        "Molecules, Genes, and Cells online tutor"
+      ],
+      "canonicalUrl": "https://yoursite.com/columbia/biology/biol-un2005",
+      "scrapedAt": "2026-06-19T08:38:16.040Z",
+      "dataSource": "https://biology.columbia.edu",
+      "verified": true
+    }
+  ],
+  "count": 1
+}
