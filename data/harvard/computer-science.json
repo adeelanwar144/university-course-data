@@ -219,7 +219,7 @@
         "Introduction to Computer Science online tutor"
       ],
       "canonicalUrl": "https://yoursite.com/harvard/computer-science/csci-s-50",
-      "scrapedAt": "2026-11-15T10:38:14.975Z",
+      "scrapedAt": "2026-11-16T10:55:15.570Z",
       "dataSource": "https://cs50.harvard.edu/college/2026/summer/syllabus/",
       "verified": true
     },
@@ -441,7 +441,7 @@
         "Introduction to Artificial Intelligence with Python online tutor"
       ],
       "canonicalUrl": "https://yoursite.com/harvard/computer-science/csci-s-51",
-      "scrapedAt": "2026-11-15T10:38:14.977Z",
+      "scrapedAt": "2026-11-16T10:55:15.572Z",
       "dataSource": "https://cs50.harvard.edu/ai/",
       "verified": true
     },
@@ -663,7 +663,7 @@
         "Web Programming with Python and JavaScript online tutor"
       ],
       "canonicalUrl": "https://yoursite.com/harvard/computer-science/csci-s-33a",
-      "scrapedAt": "2026-11-15T10:38:14.979Z",
+      "scrapedAt": "2026-11-16T10:55:15.573Z",
       "dataSource": "https://cs50.harvard.edu/web/",
       "verified": true
     }
